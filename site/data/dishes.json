@@ -1,0 +1,3072 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Sweet and Sour Fish Chunks",
+      "sprite": "Lobby_Buff_Cook_21.png",
+      "sprite_index": 21,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Phase damage taken reduced by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Phase damage taken reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Synthetic Fish"
+        ],
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Tomato"
+        ],
+        [
+          "Synthetic Fish",
+          "Synthetic Fish"
+        ]
+      ],
+      "recipe_ids": [
+        1,
+        10,
+        221
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Tomato"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 2,
+      "name": "Surf and Turf Skewers",
+      "sprite": "Lobby_Buff_Cook_22.png",
+      "sprite_index": 22,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, but Phase damage taken increases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Phase damage taken increases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Synthetic Meat"
+        ],
+        [
+          "Synthetic Fish",
+          "Synthetic Meat"
+        ]
+      ],
+      "recipe_ids": [
+        2,
+        222
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Meat"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 3,
+      "name": "Yuxiang Sliced Pork",
+      "sprite": "Lobby_Buff_Cook_23.png",
+      "sprite_index": 23,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Defense increases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, and damage taken decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Buff cannot be dispelled.",
+      "buff_tier2": "Defense increases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>, and damage taken decreases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Synthetic Poultry"
+        ],
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry"
+        ]
+      ],
+      "recipe_ids": [
+        3,
+        223
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Poultry"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 4,
+      "name": "Eel Roll",
+      "sprite": "Lobby_Buff_Cook_39.png",
+      "sprite_index": 39,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">15 points</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">20 points</span>. Considered a buff, cannot be cleansed.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "White Rice"
+        ],
+        [
+          "Synthetic Fish",
+          "White Rice"
+        ]
+      ],
+      "recipe_ids": [
+        4,
+        239
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "White Rice"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 5,
+      "name": "Grilled Cod Sausage",
+      "sprite": "Lobby_Buff_Cook_40.png",
+      "sprite_index": 40,
+      "food_type": "Take Out (Game Mode Buff)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">180</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">300</span>)s",
+      "alt_tier1": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Grants Stealth state after consumption.",
+      "alt_tier2": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Grants Stealth state after consumption.",
+      "alt_group": "alt_phase_clash",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Wheat"
+        ],
+        [
+          "Synthetic Fish",
+          "Wheat",
+          "Wheat"
+        ],
+        [
+          "Synthetic Fish",
+          "Wheat"
+        ]
+      ],
+      "recipe_ids": [
+        5,
+        35,
+        240
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Wheat"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 6,
+      "name": "Assorted Mini Rolls",
+      "sprite": "Lobby_Buff_Cook_41.png",
+      "sprite_index": 41,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "CRIT Rate increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, and CRIT DMG increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled.",
+      "buff_tier2": "CRIT Rate increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, and CRIT DMG increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Fish",
+          "Purple Sweet Potato"
+        ]
+      ],
+      "recipe_ids": [
+        6,
+        241
+      ],
+      "ingredients": [
+        "Purple Sweet Potato",
+        "Synthetic Fish"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 7,
+      "name": "Simmered Fish Tofu with Greens",
+      "sprite": "Lobby_Buff_Cook_48.png",
+      "sprite_index": 48,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Targeted damage increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, but AoE damage decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "buff_tier2": "Targeted damage increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but AoE damage decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Fish",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        7,
+        248
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 8,
+      "name": "Braised Eel with Cucumber",
+      "sprite": "Lobby_Buff_Cook_49.png",
+      "sprite_index": 49,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "AoE damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, but Targeted damage is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "buff_tier2": "AoE damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Targeted damage is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Fish",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        8,
+        249
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Synthetic Fish"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 9,
+      "name": "Rainbow Fish Slices",
+      "sprite": "Lobby_Buff_Cook_50.png",
+      "sprite_index": 50,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt to Boss units is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "buff_tier2": "Damage dealt to Boss units is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Fish",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Fish",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        9,
+        250
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Synthetic Fish"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 10,
+      "name": "Sweet and Sour Pork",
+      "sprite": "Lobby_Buff_Cook_24.png",
+      "sprite_index": 24,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Mobility increases by <span class=\"hl\" style=\"color:#f26c1c\">1 tile</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Mobility increases by <span class=\"hl\" style=\"color:#f26c1c\">2 tiles</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Synthetic Meat"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Synthetic Meat"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat"
+        ]
+      ],
+      "recipe_ids": [
+        11,
+        56,
+        224
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Meat"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 11,
+      "name": "Savory Meat Skewers",
+      "sprite": "Lobby_Buff_Cook_25.png",
+      "sprite_index": 25,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt to Standard or Elite units increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Damage dealt to Standard or Elite units increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Synthetic Poultry"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Synthetic Poultry"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "White Rice"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry"
+        ]
+      ],
+      "recipe_ids": [
+        12,
+        57,
+        66,
+        69,
+        225
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 12,
+      "name": "Wagyu Sushi",
+      "sprite": "Lobby_Buff_Cook_42.png",
+      "sprite_index": 42,
+      "food_type": "Dine In (Random Effect)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">50</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">150</span>)s",
+      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_group": "alt_random",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "White Rice"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "White Rice"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "White Rice"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice"
+        ]
+      ],
+      "recipe_ids": [
+        13,
+        58,
+        73,
+        242
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 13,
+      "name": "Roasted Large Ham",
+      "sprite": "Lobby_Buff_Cook_43.png",
+      "sprite_index": 43,
+      "food_type": "Take Out (Game Mode Buff)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">180</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">300</span>)s",
+      "alt_tier1": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases range after consumption.",
+      "alt_tier2": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases range after consumption.",
+      "alt_group": "alt_phase_clash",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Wheat"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Wheat"
+        ],
+        [
+          "Synthetic Meat",
+          "Wheat"
+        ]
+      ],
+      "recipe_ids": [
+        14,
+        59,
+        243
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 14,
+      "name": "Crispy Black Pepper Sausage",
+      "sprite": "Lobby_Buff_Cook_44.png",
+      "sprite_index": 44,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Ignores <span class=\"hl\" style=\"color:#f26c1c\">2%</span> of the target's Defense when attacking. This buff cannot be dispelled.",
+      "buff_tier2": "Attacks ignore <span class=\"hl\" style=\"color:#f26c1c\">3%</span> of the target's DEF. Buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Meat",
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "Purple Sweet Potato"
+        ]
+      ],
+      "recipe_ids": [
+        15,
+        60,
+        75,
+        87,
+        244
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 15,
+      "name": "Beef Stir-Fry with Broccoli",
+      "sprite": "Lobby_Buff_Cook_51.png",
+      "sprite_index": 51,
+      "food_type": "Dine In (Random Effect)",
+      "buff_tier1": null,
+      "buff_tier2": null,
+      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_group": "alt_random",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        16,
+        61,
+        76,
+        91,
+        251
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 16,
+      "name": "Cold Sliced Tender Meat",
+      "sprite": "Lobby_Buff_Cook_52.png",
+      "sprite_index": 52,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage taken from Boss units is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenges</span>.",
+      "buff_tier2": "Damage taken from Boss units is reduced by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenges</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        17,
+        62,
+        252
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Synthetic Fish",
+        "Synthetic Meat"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 17,
+      "name": "Green Pepper Meat Skewer",
+      "sprite": "Lobby_Buff_Cook_53.png",
+      "sprite_index": 53,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Burn Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Burn Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        18,
+        63,
+        78,
+        98,
+        99,
+        253
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 18,
+      "name": "Tomato Beef Brisket",
+      "sprite": "Lobby_Buff_Cook_67.png",
+      "sprite_index": 67,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt to Stability-Broken units is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "buff_tier2": "Damage dealt to Stability-Broken units is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Meat",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Meat",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        19,
+        64,
+        79,
+        94,
+        267
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 19,
+      "name": "Sweet and Sour Chicken Nuggets",
+      "sprite": "Lobby_Buff_Cook_26.png",
+      "sprite_index": 26,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">DEF</span>. When given to a Doll, increases the Satiety of the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">DEF</span>. When given to a Doll, increases the Satiety of the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Synthetic Poultry"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Synthetic Poultry"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Synthetic Poultry"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "White Rice"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Wheat"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry"
+        ]
+      ],
+      "recipe_ids": [
+        20,
+        65,
+        101,
+        102,
+        103,
+        105,
+        108,
+        226
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 20,
+      "name": "Pan-Seared Foie Gras Nigiri",
+      "sprite": "Lobby_Buff_Cook_45.png",
+      "sprite_index": 45,
+      "food_type": "Take Out (Game Mode Buff)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">180</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">300</span>)s",
+      "alt_tier1": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases movement speed after consumption.",
+      "alt_tier2": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases movement speed after consumption.",
+      "alt_group": "alt_phase_clash",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "White Rice"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "White Rice"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice"
+        ]
+      ],
+      "recipe_ids": [
+        21,
+        109,
+        245
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Poultry",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 21,
+      "name": "Low-Fat Chicken Sausage",
+      "sprite": "Lobby_Buff_Cook_46.png",
+      "sprite_index": 46,
+      "food_type": "Buff Doll (Other)",
+      "buff_tier1": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "buff_tier2": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Wheat"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Wheat"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "Wheat"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat",
+          "Wheat"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat"
+        ]
+      ],
+      "recipe_ids": [
+        22,
+        67,
+        110,
+        116,
+        118,
+        246
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 22,
+      "name": "Low-Calorie Purple Yam Roll",
+      "sprite": "Lobby_Buff_Cook_47.png",
+      "sprite_index": 47,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Physical Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Physical Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Poultry",
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "Purple Sweet Potato",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Purple Sweet Potato"
+        ]
+      ],
+      "recipe_ids": [
+        23,
+        68,
+        104,
+        111,
+        117,
+        123,
+        124,
+        126,
+        247
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 23,
+      "name": "Chicken Stewed with Greens",
+      "sprite": "Lobby_Buff_Cook_54.png",
+      "sprite_index": 54,
+      "food_type": "Take Out (Game Mode Buff)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">1800</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3600</span>)s",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consumption, increases the probability of unearthing ingredients.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consumption, increases the probability of unearthing ingredients.",
+      "alt_group": "alt_phase_clash",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        24,
+        112,
+        127,
+        254
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Poultry",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 24,
+      "name": "Cold Shredded Meat",
+      "sprite": "Lobby_Buff_Cook_55.png",
+      "sprite_index": 55,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Hydro Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Hydro Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        25,
+        70,
+        106,
+        113,
+        119,
+        128,
+        133,
+        255
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 25,
+      "name": "Spicy Diced Chicken",
+      "sprite": "Lobby_Buff_Cook_56.png",
+      "sprite_index": 56,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Freeze Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Freeze Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Synthetic Poultry",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        26,
+        71,
+        107,
+        114,
+        120,
+        129,
+        134,
+        135,
+        256
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 26,
+      "name": "Chicken Nuggets in Tomato Sauce",
+      "sprite": "Lobby_Buff_Cook_68.png",
+      "sprite_index": 68,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Stability damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">1 point</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "buff_tier2": "Stability damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">2 points</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Synthetic Poultry",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Synthetic Poultry",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "White Rice",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Wheat",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        27,
+        72,
+        115,
+        121,
+        130,
+        136,
+        268
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 5,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 27,
+      "name": "Soft and Fluffy Mochi",
+      "sprite": "Lobby_Buff_Cook_27.png",
+      "sprite_index": 27,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "At the start of the Round, restores HP equal to <span class=\"hl\" style=\"color:#f26c1c\">2%</span> of Max HP. This Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier2": "At the start of the Round, restores HP equal to <span class=\"hl\" style=\"color:#f26c1c\">3%</span> of Max HP. This Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "White Rice"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "White Rice"
+        ],
+        [
+          "White Rice",
+          "White Rice"
+        ]
+      ],
+      "recipe_ids": [
+        28,
+        137,
+        227
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 28,
+      "name": "Sweet Rice Bread",
+      "sprite": "Lobby_Buff_Cook_28.png",
+      "sprite_index": 28,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Phase Synergy increases by <span class=\"hl\" style=\"color:#f26c1c\">2 points</span>. Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier2": "Phase Synergy increases by <span class=\"hl\" style=\"color:#f26c1c\">3 points</span>. Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "Wheat"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "Wheat"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "Wheat"
+        ],
+        [
+          "White Rice",
+          "Wheat",
+          "Wheat"
+        ],
+        [
+          "White Rice",
+          "Wheat"
+        ]
+      ],
+      "recipe_ids": [
+        29,
+        74,
+        138,
+        144,
+        228
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 29,
+      "name": "Hot and Sour Vermicelli Bun",
+      "sprite": "Lobby_Buff_Cook_29.png",
+      "sprite_index": 29,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Max HP increases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, and healing received increases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Buff cannot be dispelled.",
+      "buff_tier2": "Max HP increases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>, and healing received increases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "Purple Sweet Potato"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "Purple Sweet Potato"
+        ],
+        [
+          "White Rice",
+          "Purple Sweet Potato"
+        ]
+      ],
+      "recipe_ids": [
+        30,
+        139,
+        229
+      ],
+      "ingredients": [
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 30,
+      "name": "Savory Vegetable Bun",
+      "sprite": "Lobby_Buff_Cook_57.png",
+      "sprite_index": 57,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "When dealing Phase damage, Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "When dealing Phase damage, Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        31,
+        140,
+        155,
+        257
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 31,
+      "name": "Cucumber and Vegan Meat Bun",
+      "sprite": "Lobby_Buff_Cook_58.png",
+      "sprite_index": 58,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "When dealing Physical damage, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "When dealing Physical damage, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "White Rice",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "White Rice",
+          "Wheat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        32,
+        77,
+        141,
+        147,
+        258
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 32,
+      "name": "Green Pepper and Mushroom Bun",
+      "sprite": "Lobby_Buff_Cook_59.png",
+      "sprite_index": 59,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Physical damage dealt decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>, but Physical damage dealt decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        33,
+        142,
+        259
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Synthetic Fish",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 33,
+      "name": "Tomato Mixed Noodles",
+      "sprite": "Lobby_Buff_Cook_69.png",
+      "sprite_index": 69,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">15 points</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">20 points</span>. This buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "White Rice",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "White Rice",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        34,
+        143,
+        269
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Tomato",
+        "White Rice"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 34,
+      "name": "Large Purple Yam Balls",
+      "sprite": "Lobby_Buff_Cook_31.png",
+      "sprite_index": 31,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "At the start of the round, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">0.7%</span>, stacking up to <span class=\"hl\" style=\"color:#f26c1c\">5 times</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier2": "At the start of the round, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>, stacking up to <span class=\"hl\" style=\"color:#f26c1c\">5 times</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Wheat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Meat",
+          "Wheat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "White Rice",
+          "Wheat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Wheat",
+          "Wheat",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Wheat",
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Wheat",
+          "Purple Sweet Potato"
+        ]
+      ],
+      "recipe_ids": [
+        36,
+        81,
+        145,
+        166,
+        172,
+        231
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 35,
+      "name": "Pickled Mustard Green and Vermicelli Bun",
+      "sprite": "Lobby_Buff_Cook_60.png",
+      "sprite_index": 60,
+      "food_type": "Dine In (Random Effect)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3</span>)s",
+      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_group": "alt_random",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Wheat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Synthetic Meat",
+          "Wheat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "White Rice",
+          "Wheat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Wheat",
+          "Wheat",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        37,
+        82,
+        146,
+        167,
+        176,
+        260
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 36,
+      "name": "Pan-Fried Cucumber Dumpling",
+      "sprite": "Lobby_Buff_Cook_61.png",
+      "sprite_index": 61,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Phase damage dealt is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>, but Phase damage dealt is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Wheat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Wheat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Wheat",
+          "Wheat",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        38,
+        83,
+        168,
+        177,
+        261
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 37,
+      "name": "Green Pepper and Tofu Bun",
+      "sprite": "Lobby_Buff_Cook_62.png",
+      "sprite_index": 62,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Electric Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Electric Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Wheat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Wheat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "Wheat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Wheat",
+          "Wheat",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        39,
+        84,
+        148,
+        169,
+        178,
+        184,
+        262
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 38,
+      "name": "Tomato Soaked Bread",
+      "sprite": "Lobby_Buff_Cook_70.png",
+      "sprite_index": 70,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">15 points</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Increases Max HP by <span class=\"hl\" style=\"color:#f26c1c\">20</span>. This Buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Wheat",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Wheat",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Wheat",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Wheat",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        40,
+        85,
+        149,
+        170,
+        179,
+        270
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 39,
+      "name": "Plain Purple Yam Bun",
+      "sprite": "Lobby_Buff_Cook_32.png",
+      "sprite_index": 32,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Meat",
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic Poultry",
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ],
+        [
+          "White Rice",
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Wheat",
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato",
+          "Tomato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato"
+        ]
+      ],
+      "recipe_ids": [
+        41,
+        86,
+        122,
+        150,
+        171,
+        186,
+        187,
+        188,
+        190,
+        232
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 5,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 40,
+      "name": "Green Purple Yam Bun",
+      "sprite": "Lobby_Buff_Cook_63.png",
+      "sprite_index": 63,
+      "food_type": "Dine In (General)",
+      "buff_tier1": null,
+      "buff_tier2": null,
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 4. Higher rarity will provide 1 additional chance.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 4. Higher rarity will provide 1 additional chance.",
+      "alt_group": "alt_ashen_tales",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "White Rice",
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        42,
+        151,
+        191,
+        263
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 41,
+      "name": "Melon and Purple Yam Bun",
+      "sprite": "Lobby_Buff_Cook_64.png",
+      "sprite_index": 64,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>, but damage taken increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "buff_tier2": "Damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">4.5%</span>, but damage taken increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "White Rice",
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Wheat",
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        43,
+        88,
+        152,
+        173,
+        192,
+        195,
+        264
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 5,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 42,
+      "name": "Peppery Purple Yam Bun",
+      "sprite": "Lobby_Buff_Cook_65.png",
+      "sprite_index": 65,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Wheat",
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        44,
+        89,
+        125,
+        153,
+        174,
+        189,
+        193,
+        196,
+        199,
+        265
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 5,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 43,
+      "name": "Vegetable Cream Soup",
+      "sprite": "Lobby_Buff_Cook_71.png",
+      "sprite_index": 71,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +4%. Higher rarity will provide an additional 50% scoring efficiency.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +4%. Higher rarity will provide an additional 50% scoring efficiency.",
+      "alt_group": "alt_ashen_tales",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Purple Sweet Potato",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Purple Sweet Potato",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Purple Sweet Potato",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Purple Sweet Potato",
+          "Tomato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        45,
+        90,
+        154,
+        175,
+        194,
+        197,
+        200,
+        271
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 6,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 44,
+      "name": "Vegetable Salad",
+      "sprite": "Lobby_Buff_Cook_33.png",
+      "sprite_index": 33,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt by out-of-turn attacks increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "Damage dealt by out-of-turn attacks increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables"
+        ]
+      ],
+      "recipe_ids": [
+        46,
+        201,
+        233
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 45,
+      "name": "Cold Dish in Sauce",
+      "sprite": "Lobby_Buff_Cook_34.png",
+      "sprite_index": 34,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt by active attacks is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "Damage dealt by active attacks increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drills</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        47,
+        92,
+        156,
+        202,
+        234
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 46,
+      "name": "Stir-fried Seasonal Vegetables",
+      "sprite": "Lobby_Buff_Cook_35.png",
+      "sprite_index": 35,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. This buff cannot be dispelled.",
+      "buff_tier2": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>, damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. This buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        48,
+        93,
+        157,
+        203,
+        235
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 47,
+      "name": "Tomato Vegetable Mix",
+      "sprite": "Lobby_Buff_Cook_72.png",
+      "sprite_index": 72,
+      "food_type": "Dine In (Random Effect)",
+      "buff_tier1": null,
+      "buff_tier2": null,
+      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_group": "alt_random",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Vegetables",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        49,
+        158,
+        204,
+        272
+      ],
+      "ingredients": [
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Tomato",
+        "White Rice"
+      ],
+      "best_recipe_index": 2,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 48,
+      "name": "Cucumber Salad",
+      "sprite": "Lobby_Buff_Cook_36.png",
+      "sprite_index": 36,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "When dealing damage to an enemy target, if self has a Buff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "When dealing damage to an enemy target, if self has a Buff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber"
+        ]
+      ],
+      "recipe_ids": [
+        50,
+        95,
+        131,
+        159,
+        180,
+        205,
+        211,
+        213,
+        236
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 6,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 49,
+      "name": "Appetizing Tiger Salad",
+      "sprite": "Lobby_Buff_Cook_37.png",
+      "sprite_index": 37,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "When dealing damage to an enemy target, if the target has a Debuff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "When dealing damage to an enemy target, if the target has a Debuff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Synthetic Poultry",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        51,
+        96,
+        132,
+        160,
+        181,
+        206,
+        212,
+        215,
+        237
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Synthetic Poultry",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 6,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 50,
+      "name": "Mixed Fruit Stew",
+      "sprite": "Lobby_Buff_Cook_73.png",
+      "sprite_index": 73,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.6%</span>, damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.6%</span>. This buff cannot be dispelled.",
+      "buff_tier2": "Damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. This buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Cucumber",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        52,
+        97,
+        161,
+        182,
+        207,
+        273
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 51,
+      "name": "Stir-fried Green Peppers",
+      "sprite": "Lobby_Buff_Cook_38.png",
+      "sprite_index": 38,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Wheat",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper"
+        ]
+      ],
+      "recipe_ids": [
+        53,
+        162,
+        183,
+        198,
+        208,
+        214,
+        217,
+        238
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Purple Sweet Potato",
+        "Synthetic Fish",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 6,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 52,
+      "name": "Sweet-and-Sour Veggie Medley",
+      "sprite": "Lobby_Buff_Cook_74.png",
+      "sprite_index": 74,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage dealt by physical summons increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled.",
+      "buff_tier2": "Damage dealt by physical summons increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        54,
+        163,
+        209,
+        218,
+        219,
+        274
+      ],
+      "ingredients": [
+        "Greenhouse Bell Pepper",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Tomato",
+        "White Rice"
+      ],
+      "best_recipe_index": 3,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 53,
+      "name": "Tomato Salad",
+      "sprite": "Lobby_Buff_Cook_75.png",
+      "sprite_index": 75,
+      "food_type": "Dine In (Random Effect)",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">4</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">4</span>)s",
+      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_group": "alt_random",
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Synthetic Meat",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "White Rice",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Wheat",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Vegetables",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Greenhouse Cucumber",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Tomato",
+          "Tomato",
+          "Tomato"
+        ],
+        [
+          "Tomato",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        55,
+        100,
+        164,
+        185,
+        210,
+        216,
+        220,
+        275
+      ],
+      "ingredients": [
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Synthetic Fish",
+        "Synthetic Meat",
+        "Tomato",
+        "Wheat",
+        "White Rice"
+      ],
+      "best_recipe_index": 6,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 54,
+      "name": "Hand-Warming Wowotou",
+      "sprite": "Lobby_Buff_Cook_30.png",
+      "sprite_index": 30,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Phase synergy increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier2": "Phase synergy increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Meat",
+          "Wheat",
+          "Wheat"
+        ],
+        [
+          "Wheat",
+          "Wheat",
+          "Wheat"
+        ],
+        [
+          "Wheat",
+          "Wheat"
+        ]
+      ],
+      "recipe_ids": [
+        80,
+        165,
+        230
+      ],
+      "ingredients": [
+        "Synthetic Meat",
+        "Wheat"
+      ],
+      "best_recipe_index": 1,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 55,
+      "name": "Tomato Fish Soup",
+      "sprite": "Lobby_Buff_Cook_66.png",
+      "sprite_index": 66,
+      "food_type": "Dine In (General)",
+      "buff_tier1": "Damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "buff_tier2": "Damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Gunsmoke Frontline</span> and <span class=\"hl\" style=\"color:#f26c1c\">Frontier Conquest</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Synthetic Fish",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        266
+      ],
+      "ingredients": [
+        "Synthetic Fish",
+        "Tomato"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 10
+    }
+  ],
+  "food_types": [
+    "Buff Doll (Other)",
+    "Buff Doll (Perm Stat Boost)",
+    "Dine In (General)",
+    "Dine In (Random Effect)",
+    "Take Out (Game Mode Buff)"
+  ],
+  "ingredients": [
+    "Cheese",
+    "Chill Pepper",
+    "Cilantro",
+    "Curry",
+    "Dried Shrimp",
+    "Egg",
+    "Garlic",
+    "Greenhouse Bell Pepper",
+    "Greenhouse Cucumber",
+    "Greenhouse Vegetables",
+    "Lemon",
+    "Mushroom",
+    "Purple Sweet Potato",
+    "Synthetic Fish",
+    "Synthetic Meat",
+    "Synthetic Poultry",
+    "Tofu",
+    "Tomato",
+    "Wheat",
+    "White Rice"
+  ],
+  "ingredient_icons": {
+    "Cheese": "Cheese.png",
+    "Chill Pepper": "Chill_Pepper.png",
+    "Cilantro": "Cilantro.png",
+    "Curry": "Curry.png",
+    "Dried Shrimp": "Dried_Shrimp.png",
+    "Egg": "Egg.png",
+    "Garlic": "Garlic.png",
+    "Greenhouse Bell Pepper": "Greenhouse_Bell_Pepper.png",
+    "Greenhouse Cucumber": "Greenhouse_Cucumber.png",
+    "Greenhouse Vegetables": "Greenhouse_Vegetables.png",
+    "Lemon": "Lemon.png",
+    "Mushroom": "Mushroom.png",
+    "Purple Sweet Potato": "Purple_Sweet_Potato.png",
+    "Synthetic Fish": "Synthetic_Fish.png",
+    "Synthetic Meat": "Synthetic_Meat.png",
+    "Synthetic Poultry": "Synthetic_Poultry.png",
+    "Tofu": "Tofu.png",
+    "Tomato": "Tomato.png",
+    "Wheat": "Wheat.png",
+    "White Rice": "White_Rice.png"
+  },
+  "alt_groups": [
+    {
+      "id": "alt_random",
+      "label": "Random Buff",
+      "label_ru": "Случайный бафф"
+    },
+    {
+      "id": "alt_phase_clash",
+      "label": "Only in Phase Clash",
+      "label_ru": "Только в Phase Clash"
+    },
+    {
+      "id": "alt_ashen_tales",
+      "label": "Only in Ashen Tales",
+      "label_ru": "Только в Ashen Tales"
+    }
+  ],
+  "dish_unlock_bonuses": [
+    {
+      "ingredient": "Chill Pepper",
+      "text": "Burn damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Dried Shrimp",
+      "text": "Hydro damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Lemon",
+      "text": "Electric damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Mushroom",
+      "text": "Corrosion damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Egg",
+      "text": "Freeze damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Garlic",
+      "text": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Cheese",
+      "text": "DEF +<span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Curry",
+      "text": "Max HP +<span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Cilantro",
+      "text": "CRIT Rate and CRIT DMG +<span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled."
+    },
+    {
+      "ingredient": "Tofu",
+      "text": "Attack increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled."
+    }
+  ],
+  "stats": {
+    "total_recipes": 275,
+    "unique_dishes": 55,
+    "alt_groups": 3
+  }
+}

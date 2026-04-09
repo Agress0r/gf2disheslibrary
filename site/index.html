@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GFL2 Dishes Library</title>
+  <meta name="description"
+    content="Girls' Frontline 2: Exilium cooking mini-game database — all dishes, recipes, buffs and alt-effects." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <img class="brand-icon" src="assets/favicon.png" alt="" />
+        <span class="brand-mark">GFL2</span>
+        <span class="brand-title" data-i18n="title">Dishes Library</span>
+      </div>
+      <div class="topbar-actions">
+        <input id="search" type="search" class="search-input" data-i18n-placeholder="search_placeholder"
+          placeholder="Search dishes, buffs, ingredients…" />
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button data-lang="en" class="lang-btn active">EN</button>
+          <button data-lang="ru" class="lang-btn">RU</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="filter">
+        <h3 data-i18n="filter_food_type">Food Type</h3>
+        <div id="filter-food-type" class="chip-list"></div>
+      </section>
+      <section class="filter">
+        <h3 data-i18n="filter_ingredient">Ingredient</h3>
+        <div id="filter-ingredient" class="chip-list"></div>
+      </section>
+      <section class="filter">
+        <h3 data-i18n="filter_alt_group">Alt Effect Group</h3>
+        <div id="filter-alt" class="chip-list"></div>
+      </section>
+      <button id="reset-filters" class="reset-btn" data-i18n="reset">Reset filters</button>
+    </aside>
+
+    <section class="content">
+      <div class="content-header">
+        <span id="result-count" class="result-count"></span>
+      </div>
+      <div id="grid" class="grid"></div>
+      <div id="empty" class="empty hidden" data-i18n="no_results">No dishes match your filters.</div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <span data-i18n="footer">Data: GFL2 Lobby Cook Wildcard Lookup. Sprites: in-game assets. Fan-made tool.</span>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

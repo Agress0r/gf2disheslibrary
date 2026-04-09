@@ -1,0 +1,21 @@
+# Local scratch / tooling
+detailed_plan.md
+other/
+Launch.bat
+Gunsmoke Buffs Library _ Dandegate.net.mhtml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# Claude Code local state
+.claude/
