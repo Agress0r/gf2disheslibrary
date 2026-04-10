@@ -21,7 +21,7 @@ window.I18N = {
     dish_unlock_bonus_hint: "Additional effect that is granted after the dish has been cooked for the first time. When cooking a dish with two ingredients, you can add an extra one; the bonus you receive depends on which of the ingredients from the list below was added.",
     recipe_badge_guaranteed: "★ Guaranteed unique",
     recipe_badge_recommended: "★ Recommended",
-    best_recipe_hint: "Best recipe to unlock this dish on first try (least overlap with other dishes).",
+    best_recipe_hint: "The best recipe for making this dish on your first try, using as few ingredients as possible",
     food_types: {
       "Dine In (General)": "Dine In (General)",
       "Dine In (Random Effect)": "Dine In (Random)",
@@ -78,7 +78,7 @@ window.I18N = {
     dish_unlock_bonus_hint: "Дополнительный эффект, предоставляемый после того как блюдо было приготовлено первый раз. При готовке блюда из двух ингредиентов можно добавить дополнительный, получаемый бонус зависит от того, какой из ингредиентов ниже был добавлен.",
     recipe_badge_guaranteed: "★ Уникальный",
     recipe_badge_recommended: "★ Рекомендуемый",
-    best_recipe_hint: "Лучший рецепт для открытия блюда с первой попытки (наименьшее пересечение с другими блюдами).",
+    best_recipe_hint: "Лучший рецепт, чтобы приготовить это блюдо с первого раза, используя наименьшее количество ингредиентов.",
     food_types: {
       "Dine In (General)": "В заведении (общий)",
       "Dine In (Random Effect)": "В заведении (случайный)",

@@ -153,15 +153,17 @@ def split_tiers(text):
 
 
 def compute_best_recipes(dishes_list):
-    """For each dish, find the recipe most likely to be 'unique' (best for first-cook unlock).
+    """For each dish, pick the recipe most preferable for first-cook unlock.
 
-    Score(R, D) = number of OTHER dishes X != D that have any recipe R'
-                  whose multiset contains R as a sub-multiset.
-    Lower score = recipe is rarer across other dishes = better candidate.
-    Tiebreakers: fewer distinct ingredient types, then first index.
-    Stores best_recipe_index and best_recipe_score on each dish.
+    Cooking is a deterministic exact-multiset lookup of size N → dish: a
+    2-ingredient pick (Fish, Tomato) and a 3-ingredient pick (Fish, Tomato, X)
+    are two different lookups, so a 2-ingredient recipe never "collides" with a
+    3-ingredient one at runtime. Score uses EXACT multiset equality (not
+    sub-multiset). Since the CSV maps each multiset to exactly one dish, every
+    score should come out to 0 — we still compute it as a sanity check.
+    Tiebreaker: fewer TOTAL ingredients (prefer the 2-ingredient pair recipe),
+    then first index.
     """
-    # Pre-compute Counter for each (dish_index, recipe_index)
     dish_recipe_counters = [
         [Counter(r) for r in d["recipes"]] for d in dishes_list
     ]
@@ -170,28 +172,20 @@ def compute_best_recipes(dishes_list):
         my_recipes = dish_recipe_counters[di]
         best_idx = 0
         best_score = None
-        best_unique = None
+        best_total = None
         for ri, req in enumerate(my_recipes):
             score = 0
             for dj, other_recipes in enumerate(dish_recipe_counters):
                 if dj == di:
                     continue
-                # Does any recipe of dj contain req as a sub-multiset?
-                for other in other_recipes:
-                    ok = True
-                    for ing, n in req.items():
-                        if other.get(ing, 0) < n:
-                            ok = False
-                            break
-                    if ok:
-                        score += 1
-                        break  # one match per other dish is enough
-            unique_count = len(req)
+                if any(other == req for other in other_recipes):
+                    score += 1
+            total = sum(req.values())
             if (best_score is None
                     or score < best_score
-                    or (score == best_score and unique_count < best_unique)):
+                    or (score == best_score and total < best_total)):
                 best_score = score
-                best_unique = unique_count
+                best_total = total
                 best_idx = ri
         dish["best_recipe_index"] = best_idx
         dish["best_recipe_score"] = best_score
