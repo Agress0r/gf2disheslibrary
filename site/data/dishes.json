@@ -869,8 +869,8 @@
       "sprite": "Lobby_Buff_Cook_46.png",
       "sprite_index": 46,
       "food_type": "Buff Doll (Other)",
-      "buff_tier1": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
-      "buff_tier2": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "buff_tier1": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span>.",
+      "buff_tier2": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1989,8 +1989,8 @@
       "food_type": "Dine In (General)",
       "buff_tier1": null,
       "buff_tier2": null,
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 4. Higher rarity will provide 1 additional chance.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 4. Higher rarity will provide 1 additional chance.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by ?. Higher rarity will provide 1 additional chance.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by ?. Higher rarity will provide 1 additional chance.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
@@ -2193,8 +2193,8 @@
       "food_type": "Dine In (General)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +4%. Higher rarity will provide an additional 50% scoring efficiency.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +4%. Higher rarity will provide an additional 50% scoring efficiency.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +50%. Higher rarity will provide an additional 50% scoring efficiency.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +50%. Higher rarity will provide an additional 50% scoring efficiency.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
@@ -2962,23 +2962,13 @@
     "Take Out (Game Mode Buff)"
   ],
   "ingredients": [
-    "Cheese",
-    "Chill Pepper",
-    "Cilantro",
-    "Curry",
-    "Dried Shrimp",
-    "Egg",
-    "Garlic",
     "Greenhouse Bell Pepper",
     "Greenhouse Cucumber",
     "Greenhouse Vegetables",
-    "Lemon",
-    "Mushroom",
     "Purple Sweet Potato",
     "Synthetic Fish",
     "Synthetic Meat",
     "Synthetic Poultry",
-    "Tofu",
     "Tomato",
     "Wheat",
     "White Rice"

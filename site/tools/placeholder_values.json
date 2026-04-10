@@ -1,0 +1,15 @@
+{
+  "_comment": "Per-dish replacement values for {0} placeholders in buff/alt texts. When build_data.py encounters a dish with {0} that is missing from this file, it will fail with an error — add the dish manually. Use null for unknown values (will render as '?' on the site).",
+  "Cold Shredded Meat": "4",
+  "Green Pepper Meat Skewer": "4",
+  "Green Pepper and Tofu Bun": "4",
+  "Low-Calorie Purple Yam Roll": "4",
+  "Peppery Purple Yam Bun": "4",
+  "Plain Purple Yam Bun": "4",
+  "Spicy Diced Chicken": "4",
+  "Stir-fried Green Peppers": "4",
+  "Sweet and Sour Chicken Nuggets": "4",
+  "Low-Fat Chicken Sausage": "50",
+  "Vegetable Cream Soup": "50",
+  "Green Purple Yam Bun": null
+}

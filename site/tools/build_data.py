@@ -70,9 +70,12 @@ ACCENT = "#f26c1c"
 HL_OPEN = f'<span class="hl" style="color:{ACCENT}">'
 HL_CLOSE = "</span>"
 
-# {0} placeholder appears in Long-term consumption / satiety texts;
-# in-game value is always 4.
-PLACEHOLDER_ZERO_VALUE = "4"
+PLACEHOLDER_VALUES_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "placeholder_values.json"
+)
+
+# Sentinel for unknown {0} values (null in placeholder_values.json).
+PLACEHOLDER_UNKNOWN = "?"
 
 # Numbers wrapped in (parentheses) — e.g. "Duration: (180)s" — get highlighted.
 PAREN_NUMBER_RE = re.compile(r"\((\d+(?:\.\d+)?)\)")
@@ -101,20 +104,32 @@ def find_csv():
     sys.exit(f"CSV not found in: {CSV_CANDIDATES}")
 
 
-def normalize_html(text):
+def normalize_html(text, placeholder_values=None, dish_name=None):
     """Convert Unity <color=#xxx>...</color> tags to <span class='hl'>.
 
     Also: returns None for empty/whitespace/bare-pipe input, highlights
-    {0} placeholders (always = 4) and numbers inside (parentheses).
+    {0} placeholders (per-dish value from placeholder_values.json) and
+    numbers inside (parentheses).
     """
     if text is None:
         return None
     text = text.strip()
     if not text or text == "|":
         return None
-    # Substitute {0} placeholder with literal value BEFORE color-tag conversion,
+    # Substitute {0} placeholder with per-dish value BEFORE color-tag conversion,
     # so a wrapping <color>...{0}...</color> ends up as a single span (not nested).
-    text = text.replace("{0}", PLACEHOLDER_ZERO_VALUE)
+    if "{0}" in text:
+        assert dish_name is not None, (
+            f"text contains '{{0}}' but no dish_name provided for lookup"
+        )
+        assert placeholder_values is not None and dish_name in placeholder_values, (
+            f"Dish '{dish_name}' has {{0}} placeholder but no entry in "
+            f"placeholder_values.json — add it manually"
+        )
+        value = placeholder_values[dish_name]
+        if value is None:
+            value = PLACEHOLDER_UNKNOWN
+        text = text.replace("{0}", value)
     # Replace color tags
     text = COLOR_RE.sub(
         lambda m: f'<span class="hl" style="color:{m.group(1)}">{m.group(2)}</span>',
@@ -136,7 +151,7 @@ def normalize_html(text):
     return text
 
 
-def split_tiers(text):
+def split_tiers(text, placeholder_values=None, dish_name=None):
     """Split a buff_description / alt_effect on ' | ' into tier1/tier2."""
     if text is None:
         return (None, None)
@@ -144,11 +159,12 @@ def split_tiers(text):
     if not raw or raw == "|":
         return (None, None)
     parts = raw.split(" | ")
+    kw = dict(placeholder_values=placeholder_values, dish_name=dish_name)
     if len(parts) == 1:
-        norm = normalize_html(parts[0])
+        norm = normalize_html(parts[0], **kw)
         return (norm, norm)
-    tier1 = normalize_html(parts[0])
-    tier2 = normalize_html(parts[1])
+    tier1 = normalize_html(parts[0], **kw)
+    tier2 = normalize_html(parts[1], **kw)
     return (tier1, tier2)
 
 
@@ -302,6 +318,12 @@ def main():
     dish_sprite_map = build_dish_sprite_map(rows)
     print(f"[build] dish->sprite map built: {len(dish_sprite_map)} entries")
 
+    # Per-dish {0} placeholder values (loaded from external JSON).
+    with open(PLACEHOLDER_VALUES_PATH, encoding="utf-8") as f:
+        placeholder_values = json.load(f)
+    placeholder_values.pop("_comment", None)
+    print(f"[build] placeholder values loaded: {len(placeholder_values)} entries")
+
     dishes = OrderedDict()  # name -> dish dict
 
     used_alt_groups = set()
@@ -318,8 +340,8 @@ def main():
         sprite_index, sprite_file = dish_sprite_map[name]
         sprite_idx = sprite_index
 
-        buff_t1, buff_t2 = split_tiers(buff_raw)
-        alt_t1, alt_t2 = split_tiers(alt_raw)
+        buff_t1, buff_t2 = split_tiers(buff_raw, placeholder_values, name)
+        alt_t1, alt_t2 = split_tiers(alt_raw, placeholder_values, name)
 
         # Alt group: semantic classification
         agid = classify_alt(alt_raw)
@@ -370,11 +392,15 @@ def main():
     # Collect dictionaries
     food_types = sorted({d["food_type"] for d in dishes_list})
     used_ingredients = {i for d in dishes_list for i in d["ingredients"]}
-    # Include all known ingredients (even ones with no recipes yet),
-    # so the sidebar can list them as soon as the icons exist.
-    all_ingredients = sorted(used_ingredients | set(INGREDIENT_FILES.keys()))
+    # "ingredients" list = only recipe ingredients (used in sidebar filter).
+    # Bonus-only ingredients (from INGREDIENT_FILES but not in any recipe)
+    # are excluded from the filter — they only appear in dish_unlock_bonuses.
+    all_ingredients = sorted(used_ingredients)
+    # Icon map covers ALL known ingredients (recipe + bonus) so the
+    # Extra First-Cook Bonuses section in the modal can render icons.
+    all_icon_ingredients = sorted(used_ingredients | set(INGREDIENT_FILES.keys()))
     ingredient_icons = {
-        name: ingredient_icon_filename(name) for name in all_ingredients
+        name: ingredient_icon_filename(name) for name in all_icon_ingredients
     }
     # Warn about ingredients used in CSV but missing a sprite mapping.
     missing_icons = sorted(used_ingredients - set(INGREDIENT_FILES.keys()))
@@ -420,6 +446,9 @@ def main():
             print(f"[warn] alt group '{gid}' is defined but unused")
     for name, snippet in unclassified:
         print(f"[warn] unclassified alt-effect for dish '{name}': {snippet}")
+    unknown_placeholders = [n for n, v in placeholder_values.items() if v is None]
+    for n in unknown_placeholders:
+        print(f"[warn] dish '{n}' has unknown {{0}} value (null in placeholder_values.json)")
 
     # Copy sprites
     os.makedirs(SPRITES_DST, exist_ok=True)
