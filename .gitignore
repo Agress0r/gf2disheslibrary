@@ -1,15 +1,19 @@
 # Local scratch / tooling
 detailed_plan.md
+decode_lobby_cook_illustrations.py
 other/
 Launch.bat
 Gunsmoke Buffs Library _ Dandegate.net.mhtml
 
-# Raw game data — kept locally for build_data.py, not published
+# Raw game data - kept locally for build_data.py, not published
 BattleBuffPerformData.json
 GameFoodIngridients.txt
+LobbyCookIllustrationsData.bytes
+LobbyCookIllustrationsData.decoded.json
 LobbyCookIllustrationsData.json
 LobbyCookWildcardData.json
-LobbyCookWildcardLookup.csv
+LobbyCookWildcardLookup*.csv
+LobbyCookWildcardLookup.json
 
 # Local Claude Code project notes
 CLAUDE.md

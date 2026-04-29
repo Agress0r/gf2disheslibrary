@@ -2,7 +2,7 @@
   "dishes": [
     {
       "id": 1,
-      "name": "Sweet and Sour Fish Chunks",
+      "name": "Sweet and Sour Fish",
       "sprite": "Lobby_Buff_Cook_21.png",
       "sprite_index": 21,
       "food_type": "Dine In (General)",
@@ -13,18 +13,18 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
-          "Synthetic Fish"
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat"
         ],
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
           "Tomato"
         ],
         [
-          "Synthetic Fish",
-          "Synthetic Fish"
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat"
         ]
       ],
       "recipe_ids": [
@@ -33,7 +33,7 @@
         221
       ],
       "ingredients": [
-        "Synthetic Fish",
+        "Synthetic Fish Meat",
         "Tomato"
       ],
       "best_recipe_index": 2,
@@ -52,13 +52,13 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
-          "Synthetic Meat"
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat"
         ],
         [
-          "Synthetic Fish",
-          "Synthetic Meat"
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat"
         ]
       ],
       "recipe_ids": [
@@ -66,15 +66,15 @@
         222
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Meat"
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 3,
-      "name": "Yuxiang Sliced Pork",
+      "name": "Fish-Flavored Pork Slices",
       "sprite": "Lobby_Buff_Cook_23.png",
       "sprite_index": 23,
       "food_type": "Dine In (General)",
@@ -85,13 +85,13 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
-          "Synthetic Poultry"
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
+          "Synthetic White Meat"
         ],
         [
-          "Synthetic Fish",
-          "Synthetic Poultry"
+          "Synthetic Fish Meat",
+          "Synthetic White Meat"
         ]
       ],
       "recipe_ids": [
@@ -99,15 +99,15 @@
         223
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Poultry"
+        "Synthetic Fish Meat",
+        "Synthetic White Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 4,
-      "name": "Eel Roll",
+      "name": "Unagi Roll",
       "sprite": "Lobby_Buff_Cook_39.png",
       "sprite_index": 39,
       "food_type": "Dine In (General)",
@@ -118,13 +118,13 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
-          "White Rice"
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
+          "Rice"
         ],
         [
-          "Synthetic Fish",
-          "White Rice"
+          "Synthetic Fish Meat",
+          "Rice"
         ]
       ],
       "recipe_ids": [
@@ -132,15 +132,15 @@
         239
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 5,
-      "name": "Grilled Cod Sausage",
+      "name": "Roasted Cod Sausage",
       "sprite": "Lobby_Buff_Cook_40.png",
       "sprite_index": 40,
       "food_type": "Take Out (Game Mode Buff)",
@@ -151,18 +151,18 @@
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
-          "Wheat"
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
+          "Grains"
         ],
         [
-          "Synthetic Fish",
-          "Wheat",
-          "Wheat"
+          "Synthetic Fish Meat",
+          "Grains",
+          "Grains"
         ],
         [
-          "Synthetic Fish",
-          "Wheat"
+          "Synthetic Fish Meat",
+          "Grains"
         ]
       ],
       "recipe_ids": [
@@ -171,15 +171,15 @@
         240
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Wheat"
+        "Grains",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 6,
-      "name": "Assorted Mini Rolls",
+      "name": "Assorted Small Rolls",
       "sprite": "Lobby_Buff_Cook_41.png",
       "sprite_index": 41,
       "food_type": "Dine In (General)",
@@ -190,12 +190,12 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato"
         ]
       ],
@@ -205,14 +205,14 @@
       ],
       "ingredients": [
         "Purple Sweet Potato",
-        "Synthetic Fish"
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 7,
-      "name": "Simmered Fish Tofu with Greens",
+      "name": "Braised Fish and Tofu With Greens",
       "sprite": "Lobby_Buff_Cook_48.png",
       "sprite_index": 48,
       "food_type": "Dine In (General)",
@@ -223,12 +223,12 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Vegetables"
         ]
       ],
@@ -238,14 +238,14 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish"
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 8,
-      "name": "Braised Eel with Cucumber",
+      "name": "Braised Eel With Cucumber",
       "sprite": "Lobby_Buff_Cook_49.png",
       "sprite_index": 49,
       "food_type": "Dine In (General)",
@@ -256,12 +256,12 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Cucumber"
         ]
       ],
@@ -271,14 +271,14 @@
       ],
       "ingredients": [
         "Greenhouse Cucumber",
-        "Synthetic Fish"
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 9,
-      "name": "Rainbow Fish Slices",
+      "name": "Rainbow Fish Platter",
       "sprite": "Lobby_Buff_Cook_50.png",
       "sprite_index": 50,
       "food_type": "Dine In (General)",
@@ -289,12 +289,12 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
+          "Synthetic Fish Meat",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Bell Pepper"
         ]
       ],
@@ -304,14 +304,14 @@
       ],
       "ingredients": [
         "Greenhouse Bell Pepper",
-        "Synthetic Fish"
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 1,
       "best_recipe_score": 0
     },
     {
       "id": 10,
-      "name": "Sweet and Sour Pork",
+      "name": "Sweet and Sour Pork Fillets",
       "sprite": "Lobby_Buff_Cook_24.png",
       "sprite_index": 24,
       "food_type": "Dine In (General)",
@@ -322,18 +322,18 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
-          "Synthetic Meat"
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
-          "Synthetic Meat"
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat"
+          "Synthetic Red Meat",
+          "Synthetic Red Meat"
         ]
       ],
       "recipe_ids": [
@@ -342,15 +342,15 @@
         224
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Meat"
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 11,
-      "name": "Savory Meat Skewers",
+      "name": "Meat Skewers",
       "sprite": "Lobby_Buff_Cook_25.png",
       "sprite_index": 25,
       "food_type": "Dine In (General)",
@@ -361,28 +361,28 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
-          "Synthetic Poultry"
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
+          "Synthetic White Meat"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
-          "Synthetic Poultry"
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
+          "Synthetic White Meat"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
-          "White Rice"
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
+          "Rice"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry"
+          "Synthetic Red Meat",
+          "Synthetic White Meat"
         ]
       ],
       "recipe_ids": [
@@ -394,10 +394,10 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
@@ -415,23 +415,23 @@
       "alt_group": "alt_random",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
-          "White Rice"
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
+          "Rice"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
-          "White Rice"
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
+          "Rice"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
-          "White Rice"
+          "Synthetic Red Meat",
+          "Rice",
+          "Rice"
         ],
         [
-          "Synthetic Meat",
-          "White Rice"
+          "Synthetic Red Meat",
+          "Rice"
         ]
       ],
       "recipe_ids": [
@@ -441,16 +441,16 @@
         242
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 3,
       "best_recipe_score": 0
     },
     {
       "id": 13,
-      "name": "Roasted Large Ham",
+      "name": "Roasted Ham",
       "sprite": "Lobby_Buff_Cook_43.png",
       "sprite_index": 43,
       "food_type": "Take Out (Game Mode Buff)",
@@ -461,18 +461,18 @@
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
-          "Wheat"
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
+          "Grains"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
-          "Wheat"
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
+          "Grains"
         ],
         [
-          "Synthetic Meat",
-          "Wheat"
+          "Synthetic Red Meat",
+          "Grains"
         ]
       ],
       "recipe_ids": [
@@ -481,16 +481,16 @@
         243
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat"
+        "Grains",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 14,
-      "name": "Crispy Black Pepper Sausage",
+      "name": "Black Pepper Crispy Sausage",
       "sprite": "Lobby_Buff_Cook_44.png",
       "sprite_index": 44,
       "food_type": "Dine In (General)",
@@ -501,27 +501,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
+          "Synthetic Red Meat",
+          "Rice",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato"
         ]
       ],
@@ -535,16 +535,16 @@
       "ingredients": [
         "Greenhouse Vegetables",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 15,
-      "name": "Beef Stir-Fry with Broccoli",
+      "name": "Broccoli and Beef Stir-Fry",
       "sprite": "Lobby_Buff_Cook_51.png",
       "sprite_index": 51,
       "food_type": "Dine In (Random Effect)",
@@ -555,27 +555,27 @@
       "alt_group": "alt_random",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
+          "Synthetic Red Meat",
+          "Rice",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables"
         ]
       ],
@@ -588,16 +588,16 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 16,
-      "name": "Cold Sliced Tender Meat",
+      "name": "Tossed Pork Salad",
       "sprite": "Lobby_Buff_Cook_52.png",
       "sprite_index": 52,
       "food_type": "Dine In (General)",
@@ -608,17 +608,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Cucumber"
         ]
       ],
@@ -629,15 +629,15 @@
       ],
       "ingredients": [
         "Greenhouse Cucumber",
-        "Synthetic Fish",
-        "Synthetic Meat"
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 17,
-      "name": "Green Pepper Meat Skewer",
+      "name": "Green Pepper Kushiyaki",
       "sprite": "Lobby_Buff_Cook_53.png",
       "sprite_index": 53,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -648,32 +648,32 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
+          "Synthetic Red Meat",
+          "Rice",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Bell Pepper",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Bell Pepper",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Bell Pepper"
         ]
       ],
@@ -687,10 +687,10 @@
       ],
       "ingredients": [
         "Greenhouse Bell Pepper",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
@@ -708,27 +708,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Meat",
+          "Synthetic Fish Meat",
+          "Synthetic Red Meat",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Meat",
+          "Synthetic Red Meat",
+          "Synthetic Red Meat",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
+          "Synthetic Red Meat",
+          "Rice",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Tomato"
         ]
       ],
@@ -741,17 +741,17 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 19,
-      "name": "Sweet and Sour Chicken Nuggets",
+      "name": "Sweet and Sour Chicken",
       "sprite": "Lobby_Buff_Cook_26.png",
       "sprite_index": 26,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -762,43 +762,48 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
-          "Synthetic Poultry"
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
+          "Synthetic White Meat"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
-          "Synthetic Poultry"
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
+          "Synthetic White Meat"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
-          "Synthetic Poultry"
+          "Synthetic White Meat",
+          "Synthetic White Meat",
+          "Synthetic White Meat"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
-          "White Rice"
+          "Synthetic White Meat",
+          "Synthetic White Meat",
+          "Rice"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
-          "Wheat"
+          "Synthetic White Meat",
+          "Synthetic White Meat",
+          "Grains"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
+          "Synthetic White Meat",
+          "Synthetic White Meat",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
+          "Synthetic White Meat",
+          "Synthetic White Meat",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry"
+          "Synthetic White Meat",
+          "Synthetic White Meat"
+        ],
+        [
+          "Synthetic White Meat",
+          "Synthetic White Meat",
+          "Onion"
         ]
       ],
       "recipe_ids": [
@@ -809,23 +814,25 @@
         103,
         105,
         108,
-        226
+        226,
+        287
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Onion",
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 7,
       "best_recipe_score": 0
     },
     {
       "id": 20,
-      "name": "Pan-Seared Foie Gras Nigiri",
+      "name": "Pan-Fried Foie Gras Nigiri",
       "sprite": "Lobby_Buff_Cook_45.png",
       "sprite_index": 45,
       "food_type": "Take Out (Game Mode Buff)",
@@ -836,18 +843,18 @@
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
-          "White Rice"
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
+          "Rice"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
-          "White Rice"
+          "Synthetic White Meat",
+          "Rice",
+          "Rice"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice"
+          "Synthetic White Meat",
+          "Rice"
         ]
       ],
       "recipe_ids": [
@@ -856,9 +863,9 @@
         245
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Poultry",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic White Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
@@ -876,33 +883,33 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
-          "Wheat"
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
+          "Grains"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
-          "Wheat"
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
+          "Grains"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
-          "Wheat"
+          "Synthetic White Meat",
+          "Rice",
+          "Grains"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat",
-          "Wheat"
+          "Synthetic White Meat",
+          "Grains",
+          "Grains"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat",
+          "Synthetic White Meat",
+          "Grains",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat"
+          "Synthetic White Meat",
+          "Grains"
         ]
       ],
       "recipe_ids": [
@@ -914,19 +921,19 @@
         246
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
     },
     {
       "id": 22,
-      "name": "Low-Calorie Purple Yam Roll",
+      "name": "Low-Calorie Sweet Purple Potato Rings",
       "sprite": "Lobby_Buff_Cook_47.png",
       "sprite_index": 47,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -937,48 +944,53 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
+          "Synthetic White Meat",
+          "Synthetic White Meat",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
+          "Synthetic White Meat",
+          "Rice",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat",
+          "Synthetic White Meat",
+          "Grains",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Purple Sweet Potato",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Purple Sweet Potato",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Purple Sweet Potato",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Purple Sweet Potato"
+        ],
+        [
+          "Synthetic White Meat",
+          "Purple Sweet Potato",
+          "Onion"
         ]
       ],
       "recipe_ids": [
@@ -990,25 +1002,27 @@
         123,
         124,
         126,
-        247
+        247,
+        289
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
+        "Onion",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 8,
       "best_recipe_score": 0
     },
     {
       "id": 23,
-      "name": "Chicken Stewed with Greens",
+      "name": "Chicken Srew With Freens",
       "sprite": "Lobby_Buff_Cook_54.png",
       "sprite_index": 54,
       "food_type": "Take Out (Game Mode Buff)",
@@ -1019,22 +1033,22 @@
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
+          "Synthetic White Meat",
+          "Rice",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Vegetables",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Vegetables"
         ]
       ],
@@ -1046,16 +1060,16 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Poultry",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic White Meat"
       ],
       "best_recipe_index": 3,
       "best_recipe_score": 0
     },
     {
       "id": 24,
-      "name": "Cold Shredded Meat",
+      "name": "Cold Shredded Pork",
       "sprite": "Lobby_Buff_Cook_55.png",
       "sprite_index": 55,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -1066,42 +1080,42 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
+          "Synthetic White Meat",
+          "Synthetic White Meat",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
+          "Synthetic White Meat",
+          "Rice",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat",
+          "Synthetic White Meat",
+          "Grains",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Vegetables",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Cucumber",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Cucumber"
         ]
       ],
@@ -1116,21 +1130,21 @@
         255
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 7,
       "best_recipe_score": 0
     },
     {
       "id": 25,
-      "name": "Spicy Diced Chicken",
+      "name": "Spicy Stir-Fried Chicken Cubes",
       "sprite": "Lobby_Buff_Cook_56.png",
       "sprite_index": 56,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -1141,48 +1155,53 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
-          "Synthetic Poultry",
+          "Synthetic White Meat",
+          "Synthetic White Meat",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
+          "Synthetic White Meat",
+          "Rice",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat",
+          "Synthetic White Meat",
+          "Grains",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Vegetables",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Bell Pepper",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Bell Pepper",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Synthetic White Meat"
         ]
       ],
       "recipe_ids": [
@@ -1194,24 +1213,26 @@
         129,
         134,
         135,
-        256
+        256,
+        279
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Bell Pepper",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Onion",
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 8,
       "best_recipe_score": 0
     },
     {
       "id": 26,
-      "name": "Chicken Nuggets in Tomato Sauce",
+      "name": "Tomato Chicken Nuggets",
       "sprite": "Lobby_Buff_Cook_68.png",
       "sprite_index": 68,
       "food_type": "Dine In (General)",
@@ -1222,37 +1243,37 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Synthetic Poultry",
+          "Synthetic Fish Meat",
+          "Synthetic White Meat",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
-          "Synthetic Poultry",
+          "Synthetic Red Meat",
+          "Synthetic White Meat",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
-          "White Rice",
+          "Synthetic White Meat",
+          "Rice",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
-          "Wheat",
+          "Synthetic White Meat",
+          "Grains",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Vegetables",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Tomato",
           "Tomato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Tomato"
         ]
       ],
@@ -1266,20 +1287,20 @@
         268
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 6,
       "best_recipe_score": 0
     },
     {
       "id": 27,
-      "name": "Soft and Fluffy Mochi",
+      "name": "Fluffy Glutinous Rice Balls",
       "sprite": "Lobby_Buff_Cook_27.png",
       "sprite_index": 27,
       "food_type": "Dine In (General)",
@@ -1290,18 +1311,18 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
-          "White Rice"
+          "Synthetic Fish Meat",
+          "Rice",
+          "Rice"
         ],
         [
-          "White Rice",
-          "White Rice",
-          "White Rice"
+          "Rice",
+          "Rice",
+          "Rice"
         ],
         [
-          "White Rice",
-          "White Rice"
+          "Rice",
+          "Rice"
         ]
       ],
       "recipe_ids": [
@@ -1310,8 +1331,8 @@
         227
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
@@ -1329,28 +1350,28 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
-          "Wheat"
+          "Synthetic Fish Meat",
+          "Rice",
+          "Grains"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
-          "Wheat"
+          "Synthetic Red Meat",
+          "Rice",
+          "Grains"
         ],
         [
-          "White Rice",
-          "White Rice",
-          "Wheat"
+          "Rice",
+          "Rice",
+          "Grains"
         ],
         [
-          "White Rice",
-          "Wheat",
-          "Wheat"
+          "Rice",
+          "Grains",
+          "Grains"
         ],
         [
-          "White Rice",
-          "Wheat"
+          "Rice",
+          "Grains"
         ]
       ],
       "recipe_ids": [
@@ -1361,17 +1382,17 @@
         228
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat",
-        "White Rice"
+        "Grains",
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 29,
-      "name": "Hot and Sour Vermicelli Bun",
+      "name": "Spicy and Sour Vermicelli Buns",
       "sprite": "Lobby_Buff_Cook_29.png",
       "sprite_index": 29,
       "food_type": "Dine In (General)",
@@ -1382,17 +1403,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
+          "Synthetic Fish Meat",
+          "Rice",
           "Purple Sweet Potato"
         ],
         [
-          "White Rice",
-          "White Rice",
+          "Rice",
+          "Rice",
           "Purple Sweet Potato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Purple Sweet Potato"
         ]
       ],
@@ -1403,15 +1424,15 @@
       ],
       "ingredients": [
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 30,
-      "name": "Savory Vegetable Bun",
+      "name": "Steamed Vegetable Buns",
       "sprite": "Lobby_Buff_Cook_57.png",
       "sprite_index": 57,
       "food_type": "Dine In (General)",
@@ -1422,22 +1443,22 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
+          "Synthetic Fish Meat",
+          "Rice",
           "Greenhouse Vegetables"
         ],
         [
-          "White Rice",
-          "White Rice",
+          "Rice",
+          "Rice",
           "Greenhouse Vegetables"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Vegetables",
           "Greenhouse Vegetables"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Vegetables"
         ]
       ],
@@ -1449,15 +1470,15 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 3,
       "best_recipe_score": 0
     },
     {
       "id": 31,
-      "name": "Cucumber and Vegan Meat Bun",
+      "name": "Cucumber Vegeterian Buns",
       "sprite": "Lobby_Buff_Cook_58.png",
       "sprite_index": 58,
       "food_type": "Dine In (General)",
@@ -1468,27 +1489,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
+          "Synthetic Fish Meat",
+          "Rice",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
-          "White Rice",
+          "Synthetic Red Meat",
+          "Rice",
           "Greenhouse Cucumber"
         ],
         [
-          "White Rice",
-          "White Rice",
+          "Rice",
+          "Rice",
           "Greenhouse Cucumber"
         ],
         [
-          "White Rice",
-          "Wheat",
+          "Rice",
+          "Grains",
           "Greenhouse Cucumber"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Cucumber"
         ]
       ],
@@ -1500,18 +1521,18 @@
         258
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 32,
-      "name": "Green Pepper and Mushroom Bun",
+      "name": "Pepper and Mushroom Buns",
       "sprite": "Lobby_Buff_Cook_59.png",
       "sprite_index": 59,
       "food_type": "Dine In (General)",
@@ -1522,17 +1543,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
+          "Synthetic Fish Meat",
+          "Rice",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
-          "White Rice",
+          "Rice",
+          "Rice",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Bell Pepper"
         ]
       ],
@@ -1543,15 +1564,15 @@
       ],
       "ingredients": [
         "Greenhouse Bell Pepper",
-        "Synthetic Fish",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 33,
-      "name": "Tomato Mixed Noodles",
+      "name": "Tomato Rice",
       "sprite": "Lobby_Buff_Cook_69.png",
       "sprite_index": 69,
       "food_type": "Dine In (General)",
@@ -1562,17 +1583,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "White Rice",
+          "Synthetic Fish Meat",
+          "Rice",
           "Tomato"
         ],
         [
-          "White Rice",
-          "White Rice",
+          "Rice",
+          "Rice",
           "Tomato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Tomato"
         ]
       ],
@@ -1582,16 +1603,16 @@
         269
       ],
       "ingredients": [
-        "Synthetic Fish",
-        "Tomato",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Tomato"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 34,
-      "name": "Large Purple Yam Balls",
+      "name": "Purple Sweet Potato Balls",
       "sprite": "Lobby_Buff_Cook_31.png",
       "sprite_index": 31,
       "food_type": "Dine In (General)",
@@ -1602,32 +1623,32 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Wheat",
+          "Synthetic Fish Meat",
+          "Grains",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Meat",
-          "Wheat",
+          "Synthetic Red Meat",
+          "Grains",
           "Purple Sweet Potato"
         ],
         [
-          "White Rice",
-          "Wheat",
+          "Rice",
+          "Grains",
           "Purple Sweet Potato"
         ],
         [
-          "Wheat",
-          "Wheat",
+          "Grains",
+          "Grains",
           "Purple Sweet Potato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Purple Sweet Potato",
           "Greenhouse Vegetables"
         ],
         [
-          "Wheat",
+          "Grains",
           "Purple Sweet Potato"
         ]
       ],
@@ -1640,19 +1661,19 @@
         231
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Vegetables",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
     },
     {
       "id": 35,
-      "name": "Pickled Mustard Green and Vermicelli Bun",
+      "name": "Pickled Mustard Greens and Vermicelli Buns",
       "sprite": "Lobby_Buff_Cook_60.png",
       "sprite_index": 60,
       "food_type": "Dine In (Random Effect)",
@@ -1663,32 +1684,32 @@
       "alt_group": "alt_random",
       "recipes": [
         [
-          "Synthetic Fish",
-          "Wheat",
+          "Synthetic Fish Meat",
+          "Grains",
           "Greenhouse Vegetables"
         ],
         [
-          "Synthetic Meat",
-          "Wheat",
+          "Synthetic Red Meat",
+          "Grains",
           "Greenhouse Vegetables"
         ],
         [
-          "White Rice",
-          "Wheat",
+          "Rice",
+          "Grains",
           "Greenhouse Vegetables"
         ],
         [
-          "Wheat",
-          "Wheat",
+          "Grains",
+          "Grains",
           "Greenhouse Vegetables"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Vegetables",
           "Greenhouse Vegetables"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Vegetables"
         ]
       ],
@@ -1701,18 +1722,18 @@
         260
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
     },
     {
       "id": 36,
-      "name": "Pan-Fried Cucumber Dumpling",
+      "name": "Fried Cucumber Dumplings",
       "sprite": "Lobby_Buff_Cook_61.png",
       "sprite_index": 61,
       "food_type": "Dine In (General)",
@@ -1723,27 +1744,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Wheat",
+          "Synthetic Fish Meat",
+          "Grains",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
-          "Wheat",
+          "Synthetic Red Meat",
+          "Grains",
           "Greenhouse Cucumber"
         ],
         [
-          "Wheat",
-          "Wheat",
+          "Grains",
+          "Grains",
           "Greenhouse Cucumber"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Vegetables",
           "Greenhouse Cucumber"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Cucumber"
         ]
       ],
@@ -1755,18 +1776,18 @@
         261
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat"
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 37,
-      "name": "Green Pepper and Tofu Bun",
+      "name": "Pepper Tofu Buns",
       "sprite": "Lobby_Buff_Cook_62.png",
       "sprite_index": 62,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -1777,37 +1798,37 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Wheat",
+          "Synthetic Fish Meat",
+          "Grains",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
-          "Wheat",
+          "Synthetic Red Meat",
+          "Grains",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
-          "Wheat",
+          "Rice",
+          "Grains",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Wheat",
-          "Wheat",
+          "Grains",
+          "Grains",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Vegetables",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Bell Pepper",
           "Tomato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Bell Pepper"
         ]
       ],
@@ -1821,20 +1842,20 @@
         262
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Bell Pepper",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 6,
       "best_recipe_score": 0
     },
     {
       "id": 38,
-      "name": "Tomato Soaked Bread",
+      "name": "Tomato Flatbread",
       "sprite": "Lobby_Buff_Cook_70.png",
       "sprite_index": 70,
       "food_type": "Dine In (General)",
@@ -1845,32 +1866,32 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
-          "Wheat",
+          "Synthetic Fish Meat",
+          "Grains",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
-          "Wheat",
+          "Synthetic Red Meat",
+          "Grains",
           "Tomato"
         ],
         [
-          "White Rice",
-          "Wheat",
+          "Rice",
+          "Grains",
           "Tomato"
         ],
         [
-          "Wheat",
-          "Wheat",
+          "Grains",
+          "Grains",
           "Tomato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Vegetables",
           "Tomato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Tomato"
         ]
       ],
@@ -1883,19 +1904,19 @@
         270
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
     },
     {
       "id": 39,
-      "name": "Plain Purple Yam Bun",
+      "name": "Original Taste Sweet Purple Potato Balls",
       "sprite": "Lobby_Buff_Cook_32.png",
       "sprite_index": 32,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -1906,27 +1927,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato",
           "Purple Sweet Potato"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Purple Sweet Potato",
           "Purple Sweet Potato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Purple Sweet Potato",
           "Purple Sweet Potato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Purple Sweet Potato",
           "Purple Sweet Potato"
         ],
@@ -1953,6 +1974,11 @@
         [
           "Purple Sweet Potato",
           "Purple Sweet Potato"
+        ],
+        [
+          "Purple Sweet Potato",
+          "Purple Sweet Potato",
+          "Onion"
         ]
       ],
       "recipe_ids": [
@@ -1965,41 +1991,43 @@
         187,
         188,
         190,
-        232
+        232,
+        288
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
+        "Onion",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 9,
       "best_recipe_score": 0
     },
     {
       "id": 40,
-      "name": "Green Purple Yam Bun",
+      "name": "Vegetables and Sweet Potato Buns",
       "sprite": "Lobby_Buff_Cook_63.png",
       "sprite_index": 63,
       "food_type": "Dine In (General)",
       "buff_tier1": null,
       "buff_tier2": null,
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection choice by 1. Higher rarity will provide 1 additional choice.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection choice by 1. Higher rarity will provide 1 additional choice.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 1. Higher rarity will provide 1 additional chance.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 1. Higher rarity will provide 1 additional chance.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato",
           "Greenhouse Vegetables"
         ],
         [
-          "White Rice",
+          "Rice",
           "Purple Sweet Potato",
           "Greenhouse Vegetables"
         ],
@@ -2022,15 +2050,15 @@
       "ingredients": [
         "Greenhouse Vegetables",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 3,
       "best_recipe_score": 0
     },
     {
       "id": 41,
-      "name": "Melon and Purple Yam Bun",
+      "name": "Cucumber and Sweet Potato Buns",
       "sprite": "Lobby_Buff_Cook_64.png",
       "sprite_index": 64,
       "food_type": "Dine In (General)",
@@ -2041,22 +2069,22 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato",
           "Greenhouse Cucumber"
         ],
         [
-          "White Rice",
+          "Rice",
           "Purple Sweet Potato",
           "Greenhouse Cucumber"
         ],
         [
-          "Wheat",
+          "Grains",
           "Purple Sweet Potato",
           "Greenhouse Cucumber"
         ],
@@ -2085,20 +2113,20 @@
         264
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 6,
       "best_recipe_score": 0
     },
     {
       "id": 42,
-      "name": "Peppery Purple Yam Bun",
+      "name": "Spicy Purple Sweet Potato Buns",
       "sprite": "Lobby_Buff_Cook_65.png",
       "sprite_index": 65,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -2109,27 +2137,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Purple Sweet Potato",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
+          "Rice",
           "Purple Sweet Potato",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Wheat",
+          "Grains",
           "Purple Sweet Potato",
           "Greenhouse Bell Pepper"
         ],
@@ -2156,6 +2184,11 @@
         [
           "Purple Sweet Potato",
           "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Purple Sweet Potato"
         ]
       ],
       "recipe_ids": [
@@ -2168,26 +2201,28 @@
         193,
         196,
         199,
-        265
+        265,
+        282
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Bell Pepper",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
+        "Onion",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 9,
       "best_recipe_score": 0
     },
     {
       "id": 43,
-      "name": "Vegetable Cream Soup",
+      "name": "Vegetable Stew",
       "sprite": "Lobby_Buff_Cook_71.png",
       "sprite_index": 71,
       "food_type": "Dine In (General)",
@@ -2198,22 +2233,22 @@
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Purple Sweet Potato",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Purple Sweet Potato",
           "Tomato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Purple Sweet Potato",
           "Tomato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Purple Sweet Potato",
           "Tomato"
         ],
@@ -2248,14 +2283,14 @@
         271
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 7,
       "best_recipe_score": 0
@@ -2273,7 +2308,7 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Vegetables",
           "Greenhouse Vegetables"
         ],
@@ -2294,14 +2329,14 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish"
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
     },
     {
       "id": 45,
-      "name": "Cold Dish in Sauce",
+      "name": "Cold Dishes With Sauce",
       "sprite": "Lobby_Buff_Cook_34.png",
       "sprite_index": 34,
       "food_type": "Dine In (General)",
@@ -2312,17 +2347,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Vegetables",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables",
           "Greenhouse Cucumber"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Vegetables",
           "Greenhouse Cucumber"
         ],
@@ -2346,16 +2381,16 @@
       "ingredients": [
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 46,
-      "name": "Stir-fried Seasonal Vegetables",
+      "name": "Stir-Fried Seasonal Vegetables",
       "sprite": "Lobby_Buff_Cook_35.png",
       "sprite_index": 35,
       "food_type": "Dine In (General)",
@@ -2366,17 +2401,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Vegetables",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Vegetables",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Vegetables",
           "Greenhouse Bell Pepper"
         ],
@@ -2400,16 +2435,16 @@
       "ingredients": [
         "Greenhouse Bell Pepper",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 4,
       "best_recipe_score": 0
     },
     {
       "id": 47,
-      "name": "Tomato Vegetable Mix",
+      "name": "Vegetable Tomato Soup",
       "sprite": "Lobby_Buff_Cook_72.png",
       "sprite_index": 72,
       "food_type": "Dine In (Random Effect)",
@@ -2420,12 +2455,12 @@
       "alt_group": "alt_random",
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Vegetables",
           "Tomato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Vegetables",
           "Tomato"
         ],
@@ -2447,9 +2482,9 @@
       ],
       "ingredients": [
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Tomato",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Tomato"
       ],
       "best_recipe_index": 3,
       "best_recipe_score": 0
@@ -2467,27 +2502,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Cucumber",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Cucumber",
           "Greenhouse Cucumber"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Cucumber",
           "Greenhouse Cucumber"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Cucumber",
           "Greenhouse Cucumber"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Cucumber",
           "Greenhouse Cucumber"
         ],
@@ -2523,21 +2558,21 @@
         236
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 8,
       "best_recipe_score": 0
     },
     {
       "id": 49,
-      "name": "Appetizing Tiger Salad",
+      "name": "Tiger Salad Appetizer",
       "sprite": "Lobby_Buff_Cook_37.png",
       "sprite_index": 37,
       "food_type": "Dine In (General)",
@@ -2548,27 +2583,27 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Cucumber",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Cucumber",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Synthetic Poultry",
+          "Synthetic White Meat",
           "Greenhouse Cucumber",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Cucumber",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Cucumber",
           "Greenhouse Bell Pepper"
         ],
@@ -2604,15 +2639,15 @@
         237
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Bell Pepper",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Synthetic Poultry",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Synthetic White Meat",
+        "Tomato"
       ],
       "best_recipe_index": 8,
       "best_recipe_score": 0
@@ -2630,22 +2665,22 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Cucumber",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Greenhouse Cucumber",
           "Tomato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Cucumber",
           "Tomato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Cucumber",
           "Tomato"
         ],
@@ -2668,20 +2703,20 @@
         273
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
     },
     {
       "id": 51,
-      "name": "Stir-fried Green Peppers",
+      "name": "Stir-Fried Peppers",
       "sprite": "Lobby_Buff_Cook_38.png",
       "sprite_index": 38,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -2692,17 +2727,17 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Bell Pepper",
           "Greenhouse Bell Pepper"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Bell Pepper",
           "Greenhouse Bell Pepper"
         ],
         [
-          "Wheat",
+          "Grains",
           "Greenhouse Bell Pepper",
           "Greenhouse Bell Pepper"
         ],
@@ -2729,6 +2764,11 @@
         [
           "Greenhouse Bell Pepper",
           "Greenhouse Bell Pepper"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Greenhouse Bell Pepper"
         ]
       ],
       "recipe_ids": [
@@ -2739,23 +2779,25 @@
         208,
         214,
         217,
-        238
+        238,
+        285
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Bell Pepper",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
+        "Onion",
         "Purple Sweet Potato",
-        "Synthetic Fish",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat"
       ],
       "best_recipe_index": 7,
       "best_recipe_score": 0
     },
     {
       "id": 52,
-      "name": "Sweet-and-Sour Veggie Medley",
+      "name": "Sweet And Sour Traffic Light Peppers",
       "sprite": "Lobby_Buff_Cook_74.png",
       "sprite_index": 74,
       "food_type": "Dine In (General)",
@@ -2766,12 +2808,12 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Greenhouse Bell Pepper",
           "Tomato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Greenhouse Bell Pepper",
           "Tomato"
         ],
@@ -2806,9 +2848,9 @@
       "ingredients": [
         "Greenhouse Bell Pepper",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Tomato",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Tomato"
       ],
       "best_recipe_index": 5,
       "best_recipe_score": 0
@@ -2826,22 +2868,22 @@
       "alt_group": "alt_random",
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Tomato",
           "Tomato"
         ],
         [
-          "Synthetic Meat",
+          "Synthetic Red Meat",
           "Tomato",
           "Tomato"
         ],
         [
-          "White Rice",
+          "Rice",
           "Tomato",
           "Tomato"
         ],
         [
-          "Wheat",
+          "Grains",
           "Tomato",
           "Tomato"
         ],
@@ -2876,20 +2918,20 @@
         275
       ],
       "ingredients": [
+        "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Synthetic Fish",
-        "Synthetic Meat",
-        "Tomato",
-        "Wheat",
-        "White Rice"
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
+        "Tomato"
       ],
       "best_recipe_index": 7,
       "best_recipe_score": 0
     },
     {
       "id": 54,
-      "name": "Hand-Warming Wowotou",
+      "name": "Handwarmer Buns",
       "sprite": "Lobby_Buff_Cook_30.png",
       "sprite_index": 30,
       "food_type": "Dine In (General)",
@@ -2900,18 +2942,18 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Meat",
-          "Wheat",
-          "Wheat"
+          "Synthetic Red Meat",
+          "Grains",
+          "Grains"
         ],
         [
-          "Wheat",
-          "Wheat",
-          "Wheat"
+          "Grains",
+          "Grains",
+          "Grains"
         ],
         [
-          "Wheat",
-          "Wheat"
+          "Grains",
+          "Grains"
         ]
       ],
       "recipe_ids": [
@@ -2920,8 +2962,8 @@
         230
       ],
       "ingredients": [
-        "Synthetic Meat",
-        "Wheat"
+        "Grains",
+        "Synthetic Red Meat"
       ],
       "best_recipe_index": 2,
       "best_recipe_score": 0
@@ -2939,7 +2981,7 @@
       "alt_group": null,
       "recipes": [
         [
-          "Synthetic Fish",
+          "Synthetic Fish Meat",
           "Tomato"
         ]
       ],
@@ -2947,7 +2989,83 @@
         266
       ],
       "ingredients": [
-        "Synthetic Fish",
+        "Synthetic Fish Meat",
+        "Tomato"
+      ],
+      "best_recipe_index": 0,
+      "best_recipe_score": 0
+    },
+    {
+      "id": 56,
+      "name": "Sweet and Sour Stew",
+      "sprite": "Lobby_Buff_Cook_76.png",
+      "sprite_index": 76,
+      "food_type": "Buff Doll (Perm Stat Boost)",
+      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">all Phase Attribute bonuses</span>. When gifted to a Doll, increases their Satiety by <span class=\"hl\" style=\"color:#f26c1c\">?</span>.",
+      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">all Phase Attribute bonuses</span>. When gifted to a Doll, increases their Satiety by <span class=\"hl\" style=\"color:#f26c1c\">?</span>.",
+      "alt_tier1": null,
+      "alt_tier2": null,
+      "alt_group": null,
+      "recipes": [
+        [
+          "Greenhouse Bell Pepper",
+          "Onion"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Synthetic Fish Meat"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Synthetic Red Meat"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Rice"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Grains"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Greenhouse Vegetables"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Greenhouse Cucumber"
+        ],
+        [
+          "Greenhouse Bell Pepper",
+          "Onion",
+          "Tomato"
+        ]
+      ],
+      "recipe_ids": [
+        276,
+        277,
+        278,
+        280,
+        281,
+        283,
+        284,
+        286
+      ],
+      "ingredients": [
+        "Grains",
+        "Greenhouse Bell Pepper",
+        "Greenhouse Cucumber",
+        "Greenhouse Vegetables",
+        "Onion",
+        "Rice",
+        "Synthetic Fish Meat",
+        "Synthetic Red Meat",
         "Tomato"
       ],
       "best_recipe_index": 0,
@@ -2962,16 +3080,17 @@
     "Take Out (Game Mode Buff)"
   ],
   "ingredients": [
+    "Grains",
     "Greenhouse Bell Pepper",
     "Greenhouse Cucumber",
     "Greenhouse Vegetables",
+    "Onion",
     "Purple Sweet Potato",
-    "Synthetic Fish",
-    "Synthetic Meat",
-    "Synthetic Poultry",
-    "Tomato",
-    "Wheat",
-    "White Rice"
+    "Rice",
+    "Synthetic Fish Meat",
+    "Synthetic Red Meat",
+    "Synthetic White Meat",
+    "Tomato"
   ],
   "ingredient_icons": {
     "Cheese": "Cheese.png",
@@ -2981,15 +3100,21 @@
     "Dried Shrimp": "Dried_Shrimp.png",
     "Egg": "Egg.png",
     "Garlic": "Garlic.png",
+    "Grains": "Grains.png",
     "Greenhouse Bell Pepper": "Greenhouse_Bell_Pepper.png",
     "Greenhouse Cucumber": "Greenhouse_Cucumber.png",
     "Greenhouse Vegetables": "Greenhouse_Vegetables.png",
     "Lemon": "Lemon.png",
     "Mushroom": "Mushroom.png",
+    "Onion": "Onion.png",
     "Purple Sweet Potato": "Purple_Sweet_Potato.png",
+    "Rice": "Rice.png",
     "Synthetic Fish": "Synthetic_Fish.png",
+    "Synthetic Fish Meat": "Synthetic_Fish_Meat.png",
     "Synthetic Meat": "Synthetic_Meat.png",
     "Synthetic Poultry": "Synthetic_Poultry.png",
+    "Synthetic Red Meat": "Synthetic_Red_Meat.png",
+    "Synthetic White Meat": "Synthetic_White_Meat.png",
     "Tofu": "Tofu.png",
     "Tomato": "Tomato.png",
     "Wheat": "Wheat.png",
@@ -3055,8 +3180,8 @@
     }
   ],
   "stats": {
-    "total_recipes": 275,
-    "unique_dishes": 55,
+    "total_recipes": 289,
+    "unique_dishes": 56,
     "alt_groups": 3
   }
 }
