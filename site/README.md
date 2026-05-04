@@ -20,8 +20,8 @@ site/
 
 ## Regenerating Data
 
-The build script prefers `LobbyCookWildcardLookup.json`. If it is not present,
-it falls back to `LobbyCookWildcardLookup.csv`.
+The build script reads `GF2DEC/LobbyCookWildcardLookup.recreated.json`, generated
+by `GF2DEC/build_lobby_cook_wildcard_lookup.py`.
 
 Run from the repository root:
 
@@ -31,7 +31,7 @@ python site/tools/build_data.py
 
 The script:
 
-1. Loads recipe rows from `LobbyCookWildcardLookup.json`.
+1. Loads recipe rows from `GF2DEC/LobbyCookWildcardLookup.recreated.json`.
 2. Loads sprite mapping from `LobbyCookIllustrationsData.decoded.json`, falling back to `LobbyCookIllustrationsData.json`.
 3. Maps each unique dish to the matching illustration entry by the canonical 2-ingredient recipes.
 4. Splits `buff_description` and `alt_effect` on ` | ` into Lv1 / Lv2.
@@ -61,7 +61,7 @@ The `site/` folder is fully static. The included workflow deploys only the publi
 
 Local game-export files are intentionally ignored by `.gitignore`; the published site only needs generated `site/data/dishes.json` and copied assets.
 
-`LobbyCookWildcardLookup.json` rows use:
+`GF2DEC/LobbyCookWildcardLookup.recreated.json` rows use:
 
 | field | meaning |
 |---|---|

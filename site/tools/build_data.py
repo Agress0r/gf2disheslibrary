@@ -1,11 +1,10 @@
 """
-Build site/data/dishes.json from LobbyCookWildcardLookup.json
+Build site/data/dishes.json from GF2DEC/LobbyCookWildcardLookup.recreated.json
 and copy sprites to site/assets/sprites/.
 
 Run from repo root:
     python site/tools/build_data.py
 """
-import csv
 import json
 import os
 import re
@@ -15,12 +14,8 @@ from collections import Counter, OrderedDict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SITE = os.path.join(ROOT, "site")
-CSV_CANDIDATES = [
-    os.path.join(ROOT, "LobbyCookWildcardLookup.csv"),
-    r"e:\Загрузки\LobbyCookWildcardLookup.csv",
-]
 LOOKUP_JSON_CANDIDATES = [
-    os.path.join(ROOT, "LobbyCookWildcardLookup.json"),
+    os.path.join(ROOT, "GF2DEC", "LobbyCookWildcardLookup.recreated.json"),
 ]
 ILLUSTRATIONS_CANDIDATES = [
     os.path.join(ROOT, "LobbyCookIllustrationsData.decoded.json"),
@@ -108,18 +103,15 @@ DISH_UNLOCK_BONUSES = [
 ]
 
 
-def find_csv():
-    for p in CSV_CANDIDATES:
-        if os.path.exists(p):
-            return p
-    sys.exit(f"CSV not found in: {CSV_CANDIDATES}")
-
-
 def find_lookup_json():
     for p in LOOKUP_JSON_CANDIDATES:
         if os.path.exists(p):
             return p
-    return None
+    sys.exit(
+        "Lookup JSON not found. Generate it first with "
+        "GF2DEC/build_lobby_cook_wildcard_lookup.py. Searched: "
+        f"{LOOKUP_JSON_CANDIDATES}"
+    )
 
 
 def find_illustrations_json():
@@ -131,15 +123,9 @@ def find_illustrations_json():
 
 def load_rows():
     json_path = find_lookup_json()
-    if json_path:
-        print(f"[build] reading {json_path}")
-        with open(json_path, encoding="utf-8-sig") as f:
-            return json.load(f)["data"]
-
-    csv_path = find_csv()
-    print(f"[build] reading {csv_path}")
-    with open(csv_path, encoding="utf-8-sig") as f:
-        return list(csv.DictReader(f))
+    print(f"[build] reading {json_path}")
+    with open(json_path, encoding="utf-8-sig") as f:
+        return json.load(f)["data"]
 
 
 def normalize_html(text, placeholder_values=None, dish_name=None):
