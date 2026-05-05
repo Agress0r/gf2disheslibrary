@@ -42,7 +42,11 @@
       </section>
       <section class="filter">
         <h3 data-i18n="filter_ingredient">Ingredient</h3>
-        <div id="filter-ingredient" class="chip-list"></div>
+        <label id="filter-wildcard-pair-control" class="filter-toggle" data-i18n-tooltip="filter_wildcard_pair_hint">
+          <input id="filter-wildcard-pair" type="checkbox" />
+          <span data-i18n="filter_wildcard_pair">Wildcard pair only</span>
+        </label>
+        <div id="filter-ingredient" class="chip-list ingredient-filter-list"></div>
       </section>
       <section class="filter">
         <h3 data-i18n="filter_alt_group">Alt Effect Group</h3>

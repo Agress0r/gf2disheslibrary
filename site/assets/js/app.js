@@ -8,6 +8,7 @@
     filters: {
       food_type: new Set(),
       ingredient: new Map(), // ingredient name -> count (1 or 2)
+      wildcard_pair: false,
       alt: new Set(),
     },
     search: "",
@@ -38,6 +39,11 @@
       const key = el.getAttribute("data-i18n-placeholder");
       const v = tr(key);
       if (typeof v === "string") el.placeholder = v;
+    });
+    $$("[data-i18n-tooltip]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-tooltip");
+      const v = tr(key);
+      if (typeof v === "string") el.setAttribute("data-tooltip", v);
     });
   }
 
@@ -159,12 +165,14 @@
     const f = STATE.filters;
     if (f.food_type.size && !f.food_type.has(dish.food_type)) return false;
     if (f.ingredient.size) {
-      // Multiset filter: dish matches if at least one recipe has ≥ count of each
-      // selected ingredient (sub-multiset of the recipe).
+      // Multiset filter: dish matches if at least one recipe has >= count of each
+      // selected ingredient (sub-multiset of the recipe). In wildcard pair mode,
+      // only exact 2-ingredient pair recipes are considered.
       const required = [];
       f.ingredient.forEach((n, ing) => { if (n > 0) required.push([ing, n]); });
       if (required.length) {
         const ok = dish.recipes.some((recipe) => {
+          if (f.wildcard_pair && recipe.length !== 2) return false;
           const counts = {};
           for (const ing of recipe) counts[ing] = (counts[ing] || 0) + 1;
           return required.every(([ing, n]) => (counts[ing] || 0) >= n);
@@ -353,6 +361,12 @@
     buildFilters();
     render();
 
+    $("#filter-wildcard-pair").addEventListener("change", (e) => {
+      STATE.filters.wildcard_pair = e.target.checked;
+      $("#filter-wildcard-pair-control").classList.toggle("active", e.target.checked);
+      render();
+    });
+
     // Search
     $("#search").addEventListener("input", (e) => {
       STATE.search = e.target.value.trim();
@@ -370,9 +384,12 @@
     $("#reset-filters").addEventListener("click", () => {
       STATE.filters.food_type.clear();
       STATE.filters.ingredient.clear(); // Map.clear()
+      STATE.filters.wildcard_pair = false;
       STATE.filters.alt.clear();
       STATE.search = "";
       $("#search").value = "";
+      $("#filter-wildcard-pair").checked = false;
+      $("#filter-wildcard-pair-control").classList.remove("active");
       buildFilters();
       render();
     });
