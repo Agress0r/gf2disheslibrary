@@ -12,6 +12,7 @@
       alt: new Set(),
     },
     search: "",
+    activeGuideTopic: "perm_doll_buff",
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -27,6 +28,16 @@
     const dict = window.I18N[STATE.lang].ingredients || {};
     return dict[ing] || ing;
   }
+
+  const GUIDE_TOPICS = [
+    {
+      id: "perm_doll_buff",
+      labelKey: "guide_topic_perm_label",
+      titleKey: "guide_topic_perm_title",
+      descKey: "guide_topic_perm_desc",
+      render: renderPermDollBuffGuide,
+    },
+  ];
 
   function applyI18n() {
     document.documentElement.lang = STATE.lang;
@@ -45,6 +56,96 @@
       const v = tr(key);
       if (typeof v === "string") el.setAttribute("data-tooltip", v);
     });
+  }
+
+  // ─── Guide topics ────────────────────────────────────────────
+  function renderGuideTopics() {
+    const list = $("#guide-topic-list");
+    const content = $("#guide-topic-content");
+    if (!list || !content) return;
+
+    const activeTopic = GUIDE_TOPICS.find((topic) => topic.id === STATE.activeGuideTopic) || GUIDE_TOPICS[0];
+    STATE.activeGuideTopic = activeTopic.id;
+
+    list.innerHTML = GUIDE_TOPICS.map((topic) => {
+      const active = topic.id === activeTopic.id ? " active" : "";
+      return `
+        <button class="guide-topic-card${active}" type="button" data-guide-topic="${escapeAttr(topic.id)}" aria-pressed="${topic.id === activeTopic.id}">
+          <span class="guide-topic-label">${escapeHtml(tr(topic.labelKey))}</span>
+          <strong>${escapeHtml(tr(topic.titleKey))}</strong>
+          <span>${escapeHtml(tr(topic.descKey))}</span>
+        </button>
+      `;
+    }).join("");
+
+    content.innerHTML = activeTopic.render();
+
+    list.querySelectorAll("[data-guide-topic]").forEach((button) => {
+      button.addEventListener("click", () => {
+        STATE.activeGuideTopic = button.dataset.guideTopic;
+        renderGuideTopics();
+      });
+    });
+  }
+
+  function renderPermDollBuffGuide() {
+    return `
+      <div class="guide-head">
+        <span class="guide-label">${escapeHtml(tr("guide_label"))}</span>
+        <h2 id="guide-title" class="modal-title">${escapeHtml(tr("guide_title"))}</h2>
+        <p>${escapeHtml(tr("guide_intro"))}</p>
+      </div>
+      <div class="guide-grid">
+        <section class="guide-panel">
+          <h4>${escapeHtml(tr("guide_section_start"))}</h4>
+          <ul>
+            <li>${escapeHtml(tr("guide_tip_total"))}</li>
+            <li>${escapeHtml(tr("guide_tip_filters"))}</li>
+            <li>${escapeHtml(tr("guide_tip_pair"))}</li>
+            <li>${escapeHtml(tr("guide_tip_best"))}</li>
+          </ul>
+        </section>
+        <section class="guide-panel guide-panel-accent">
+          <h4 class="has-tooltip" data-tooltip="${escapeAttr(tr("guide_totals_hint"))}">${escapeHtml(tr("guide_section_tricks"))}</h4>
+          <div class="guide-total-legend">
+            ${guideDishChip("lucky", tr("guide_lucky"), 5)}
+            ${guideDishChip("normal", tr("guide_normal"), 4)}
+          </div>
+          <div class="guide-totals">
+            ${guideTotalRow("guide_total_lvl1", [
+              [guideDishChip("lucky", tr("guide_lucky"), 2)],
+            ])}
+            ${guideTotalRow("guide_total_lvl2", [
+              [guideDishChip("lucky", tr("guide_lucky"), 5)],
+              [guideDishChip("lucky", tr("guide_lucky"), 1), guideDishChip("normal", tr("guide_normal"), 5)],
+            ])}
+            ${guideTotalRow("guide_total_lvl3", [
+              [guideDishChip("lucky", tr("guide_lucky"), 10)],
+              [guideDishChip("lucky", tr("guide_lucky"), 6), guideDishChip("normal", tr("guide_normal"), 5)],
+              [guideDishChip("lucky", tr("guide_lucky"), 2), guideDishChip("normal", tr("guide_normal"), 10)],
+            ])}
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
+  function guideTotalRow(labelKey, options) {
+    const orText = escapeHtml(tr("guide_or"));
+    const optionsHtml = options.map((chips) => `
+      <span class="guide-total-option">${chips.join("")}</span>
+    `).join(`<span class="guide-total-or">${orText}</span>`);
+
+    return `
+      <div class="guide-total-row">
+        <span class="guide-total-label">${escapeHtml(tr(labelKey))}</span>
+        <span class="guide-total-combos">${optionsHtml}</span>
+      </div>
+    `;
+  }
+
+  function guideDishChip(kind, label, count) {
+    return `<span class="guide-dish-chip guide-dish-${kind}"><strong>${count}</strong><span>${escapeHtml(label)}</span></span>`;
   }
 
   // ─── Badge class ─────────────────────────────────────────────
@@ -337,6 +438,19 @@
     document.body.style.overflow = "";
   }
 
+  function openGuideModal() {
+    renderGuideTopics();
+    $("#guide-modal").classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeGuideModal() {
+    $("#guide-modal").classList.add("hidden");
+    if ($("#modal").classList.contains("hidden")) {
+      document.body.style.overflow = "";
+    }
+  }
+
   // ─── Helpers ─────────────────────────────────────────────────
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) => ({
@@ -351,6 +465,7 @@
     localStorage.setItem("gfl2_lang", lang);
     $$(".lang-btn").forEach((b) => b.classList.toggle("active", b.dataset.lang === lang));
     applyI18n();
+    renderGuideTopics();
     buildFilters();
     render();
   }
@@ -358,6 +473,7 @@
   function init(data) {
     STATE.data = data;
     applyI18n();
+    renderGuideTopics();
     buildFilters();
     render();
 
@@ -396,8 +512,13 @@
 
     // Modal close
     $$("[data-close]").forEach((el) => el.addEventListener("click", closeModal));
+    $("#guide-open").addEventListener("click", openGuideModal);
+    $$("[data-guide-close]").forEach((el) => el.addEventListener("click", closeGuideModal));
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeModal();
+      if (e.key === "Escape") {
+        closeModal();
+        closeGuideModal();
+      }
     });
   }
 

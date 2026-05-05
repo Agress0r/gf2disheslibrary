@@ -7,7 +7,6 @@ Launch.bat
 
 # Raw game data - kept locally for build_data.py, not published
 BattleBuffPerformData.json
-GameFoodIngridients.txt
 LobbyCookIllustrationsData.bytes
 LobbyCookIllustrationsData.decoded.json
 LobbyCookIllustrationsData.json
@@ -15,8 +14,9 @@ LobbyCookWildcardData.json
 LobbyCookWildcardLookup*.csv
 LobbyCookWildcardLookup.json
 
-# Local Claude Code project notes
-CLAUDE.md
+# AI project notes
+PROJECT_CONTEXT.md
+.codex/
 
 # Python
 __pycache__/
@@ -30,6 +30,3 @@ __pycache__/
 Thumbs.db
 *.bak
 *.swp
-
-# Claude Code local state
-.claude/

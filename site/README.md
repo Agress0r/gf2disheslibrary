@@ -1,7 +1,7 @@
 # GFL2 Dishes Library
 
 Static fan-site for the **Girls' Frontline 2: Exilium** lobby cooking mini-game.
-Browse all 56 unique dishes, every recipe combination, both buff tiers, and alt-effects. UI is bilingual (EN / RU).
+Browse all unique dishes, every recipe combination, both buff tiers, and alt-effects. UI is bilingual (EN / RU).
 
 ## Project Layout
 
@@ -48,10 +48,7 @@ Open it via a simple HTTP server. The page uses `fetch()` for `dishes.json`, so 
 ```sh
 cd site
 python -m http.server 8000
-# then open http://localhost:8000
 ```
-
-From the repository root you can also use `Launch.bat`.
 
 ## Deploying To GitHub Pages
 

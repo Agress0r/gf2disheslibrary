@@ -24,6 +24,11 @@
         <span class="brand-title" data-i18n="title">Dishes Library</span>
       </div>
       <div class="topbar-actions">
+        <button id="guide-open" type="button" class="guide-cta">
+          <img class="guide-cta-icon" src="assets/GuideIcon.png" alt="" />
+          <!--<span class="guide-cta-kicker" data-i18n="guide_cta_kicker">New</span>-->
+          <span data-i18n="guide_cta">Guide & Tips</span>
+        </button>
         <input id="search" type="search" class="search-input" data-i18n-placeholder="search_placeholder"
           placeholder="Search dishes, buffs, ingredients…" />
         <div class="lang-switch" role="group" aria-label="Language">
@@ -63,6 +68,109 @@
       <div id="empty" class="empty hidden" data-i18n="no_results">No dishes match your filters.</div>
     </section>
   </main>
+
+  <div id="guide-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="guide-title">
+    <div class="modal-backdrop" data-guide-close></div>
+    <div class="modal-card guide-card">
+      <button class="modal-close" data-guide-close aria-label="Close">&times;</button>
+      <div class="guide-shell">
+        <div id="guide-topic-list" class="guide-topic-list" aria-label="Guide topics">
+          <button class="guide-topic-card active" type="button">
+            <span class="guide-topic-label" data-i18n="guide_topic_perm_label">Cooking</span>
+            <strong data-i18n="guide_topic_perm_title">Permanent doll buff plan</strong>
+            <span data-i18n="guide_topic_perm_desc">Cook first, then split 4/5 Satiety dishes between dolls.</span>
+          </button>
+        </div>
+        <div id="guide-topic-content" class="guide-topic-content">
+          <div class="guide-head">
+            <span class="guide-label" data-i18n="guide_label">Cooking</span>
+            <h2 id="guide-title" class="modal-title" data-i18n="guide_title">Permanent doll buff plan</h2>
+            <p data-i18n="guide_intro">
+              Dishes expire at the end of the day, so cook first, then distribute the 4/5 Satiety dishes across several
+              dolls.
+            </p>
+          </div>
+          <div class="guide-grid">
+            <section class="guide-panel">
+              <h4 data-i18n="guide_section_start">Priority</h4>
+              <ul>
+                <li data-i18n="guide_tip_total">Satiety breakpoints for each LV are 10 / 15 / 25</li>
+                <li data-i18n="guide_tip_filters">Do not cook for one fixed doll in advance: RNG decides how many 5
+                  Satiety dishes you get.</li>
+                <li data-i18n="guide_tip_pair">After cooking, split the daily batch to hit exact thresholds: 10, 25 or
+                  50 total Satiety.</li>
+                <li data-i18n="guide_tip_best">Spend lucky 5 Satiety dishes on clean breakpoints first; avoid forcing
+                  level 3 if it wastes points.</li>
+              </ul>
+            </section>
+            <section class="guide-panel guide-panel-accent">
+              <h4 class="has-tooltip" data-i18n="guide_section_tricks" data-i18n-tooltip="guide_totals_hint">Clean Totals</h4>
+              <div class="guide-total-legend">
+                <span class="guide-dish-chip guide-dish-lucky">
+                  <span data-i18n="guide_lucky">Lucky</span>
+                  <strong>5</strong>
+                </span>
+                <span class="guide-dish-chip guide-dish-normal">
+                  <span data-i18n="guide_normal">Normal</span>
+                  <strong>4</strong>
+                </span>
+              </div>
+              <div class="guide-totals">
+                <div class="guide-total-row">
+                  <span class="guide-total-label" data-i18n="guide_total_lvl1">Lv.1</span>
+                  <span class="guide-total-combos">
+                    <span class="guide-total-option">
+                      <span class="guide-dish-chip guide-dish-lucky"><strong>2</strong><span
+                          data-i18n="guide_lucky">Lucky</span></span>
+                    </span>
+                  </span>
+                </div>
+                <div class="guide-total-row">
+                  <span class="guide-total-label" data-i18n="guide_total_lvl2">Lv.2</span>
+                  <span class="guide-total-combos">
+                    <span class="guide-total-option">
+                      <span class="guide-dish-chip guide-dish-lucky"><strong>5</strong><span
+                          data-i18n="guide_lucky">Lucky</span></span>
+                    </span>
+                    <span class="guide-total-or" data-i18n="guide_or">or</span>
+                    <span class="guide-total-option">
+                      <span class="guide-dish-chip guide-dish-lucky"><strong>1</strong><span
+                          data-i18n="guide_lucky">Lucky</span></span>
+                      <span class="guide-dish-chip guide-dish-normal"><strong>5</strong><span
+                          data-i18n="guide_normal">Normal</span></span>
+                    </span>
+                  </span>
+                </div>
+                <div class="guide-total-row">
+                  <span class="guide-total-label" data-i18n="guide_total_lvl3">Lv.3</span>
+                  <span class="guide-total-combos">
+                    <span class="guide-total-option">
+                      <span class="guide-dish-chip guide-dish-lucky"><strong>10</strong><span
+                          data-i18n="guide_lucky">Lucky</span></span>
+                    </span>
+                    <span class="guide-total-or" data-i18n="guide_or">or</span>
+                    <span class="guide-total-option">
+                      <span class="guide-dish-chip guide-dish-lucky"><strong>6</strong><span
+                          data-i18n="guide_lucky">Lucky</span></span>
+                      <span class="guide-dish-chip guide-dish-normal"><strong>5</strong><span
+                          data-i18n="guide_normal">Normal</span></span>
+                    </span>
+                    <span class="guide-total-or" data-i18n="guide_or">or</span>
+                    <span class="guide-total-option">
+                      <span class="guide-dish-chip guide-dish-lucky"><strong>2</strong><span
+                          data-i18n="guide_lucky">Lucky</span></span>
+                      <span class="guide-dish-chip guide-dish-normal"><strong>10</strong><span
+                          data-i18n="guide_normal">Normal</span></span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
     <div class="modal-backdrop" data-close></div>
