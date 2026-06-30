@@ -6,8 +6,8 @@
       "sprite": "Lobby_Buff_Cook_21.png",
       "sprite_index": 21,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Phase damage taken reduced by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
-      "buff_tier2": "Phase damage taken reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier1": "Phase damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Phase damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -45,8 +45,8 @@
       "sprite": "Lobby_Buff_Cook_22.png",
       "sprite_index": 22,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, but Phase damage taken increases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
-      "buff_tier2": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Phase damage taken increases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier1": "Phase damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span> but phase damage taken is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Phase damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span> but phase damage taken is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -78,8 +78,8 @@
       "sprite": "Lobby_Buff_Cook_23.png",
       "sprite_index": 23,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Defense increases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, and damage taken decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Buff cannot be dispelled.",
-      "buff_tier2": "Defense increases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>, and damage taken decreases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Buff cannot be dispelled.",
+      "buff_tier1": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span> and damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span> and damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -146,8 +146,8 @@
       "food_type": "Take Out (Game Mode Buff)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">180</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">300</span>)s",
-      "alt_tier1": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Grants Stealth state after consumption.",
-      "alt_tier2": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Grants Stealth state after consumption.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, enters stealth status.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, enters stealth status.",
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
@@ -179,12 +179,12 @@
     },
     {
       "id": 6,
-      "name": "Assorted Small Rolls",
+      "name": "Assorted Sushi",
       "sprite": "Lobby_Buff_Cook_41.png",
       "sprite_index": 41,
       "food_type": "Dine In (General)",
-      "buff_tier1": "CRIT Rate increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, and CRIT DMG increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled.",
-      "buff_tier2": "CRIT Rate increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, and CRIT DMG increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled.",
+      "buff_tier1": "Critical rate and critical damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Critical rate and critical damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -212,12 +212,12 @@
     },
     {
       "id": 7,
-      "name": "Braised Fish and Tofu With Greens",
+      "name": "Greens & Fish Tofu Stew",
       "sprite": "Lobby_Buff_Cook_48.png",
       "sprite_index": 48,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Targeted damage increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, but AoE damage decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
-      "buff_tier2": "Targeted damage increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but AoE damage decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "buff_tier1": "Targeted damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span> but AoE damage is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
+      "buff_tier2": "Targeted damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span> but AoE damage is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -249,8 +249,8 @@
       "sprite": "Lobby_Buff_Cook_49.png",
       "sprite_index": 49,
       "food_type": "Dine In (General)",
-      "buff_tier1": "AoE damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>, but Targeted damage is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
-      "buff_tier2": "AoE damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Targeted damage is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "buff_tier1": "AoE damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span> but targeted damage is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
+      "buff_tier2": "AoE damage is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span> but targeted damage is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -278,12 +278,12 @@
     },
     {
       "id": 9,
-      "name": "Rainbow Fish Platter",
+      "name": "Colorful Fish Fillets",
       "sprite": "Lobby_Buff_Cook_50.png",
       "sprite_index": 50,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage dealt to Boss units is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
-      "buff_tier2": "Damage dealt to Boss units is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenge</span>.",
+      "buff_tier1": "Damage dealt to boss units is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
+      "buff_tier2": "Damage dealt to boss units is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -311,12 +311,12 @@
     },
     {
       "id": 10,
-      "name": "Sweet and Sour Pork Fillets",
+      "name": "Sweet and Sour Pork",
       "sprite": "Lobby_Buff_Cook_24.png",
       "sprite_index": 24,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Mobility increases by <span class=\"hl\" style=\"color:#f26c1c\">1 tile</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
-      "buff_tier2": "Mobility increases by <span class=\"hl\" style=\"color:#f26c1c\">2 tiles</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier1": "Mobility is increased by <span class=\"hl\" style=\"color:#f26c1c\">1 tile</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Mobility is increased by <span class=\"hl\" style=\"color:#f26c1c\">2 tiles</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -354,8 +354,8 @@
       "sprite": "Lobby_Buff_Cook_25.png",
       "sprite_index": 25,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage dealt to Standard or Elite units increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
-      "buff_tier2": "Damage dealt to Standard or Elite units increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier1": "Damage dealt to normal or elite units is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
+      "buff_tier2": "Damage dealt to normal or elite units is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Peak Value Assessment</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -410,8 +410,8 @@
       "food_type": "Dine In (Random Effect)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">50</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">150</span>)s",
-      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
-      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
+      "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
       "recipes": [
         [
@@ -456,8 +456,8 @@
       "food_type": "Take Out (Game Mode Buff)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">180</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">300</span>)s",
-      "alt_tier1": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases range after consumption.",
-      "alt_tier2": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases range after consumption.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, increases attack range.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, increases attack range.",
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
@@ -490,12 +490,12 @@
     },
     {
       "id": 14,
-      "name": "Black Pepper Crispy Sausage",
+      "name": "Black Pepper Sausage",
       "sprite": "Lobby_Buff_Cook_44.png",
       "sprite_index": 44,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Ignores <span class=\"hl\" style=\"color:#f26c1c\">2%</span> of the target's Defense when attacking. This buff cannot be dispelled.",
-      "buff_tier2": "Attacks ignore <span class=\"hl\" style=\"color:#f26c1c\">3%</span> of the target's DEF. Buff cannot be dispelled.",
+      "buff_tier1": "When attacking, ignore <span class=\"hl\" style=\"color:#f26c1c\">2%</span> of the target's defense. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "When attacking, ignore <span class=\"hl\" style=\"color:#f26c1c\">3%</span> of the target's defense. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -550,8 +550,8 @@
       "food_type": "Dine In (Random Effect)",
       "buff_tier1": null,
       "buff_tier2": null,
-      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
-      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
+      "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
       "recipes": [
         [
@@ -601,8 +601,8 @@
       "sprite": "Lobby_Buff_Cook_52.png",
       "sprite_index": 52,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage taken from Boss units is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenges</span>.",
-      "buff_tier2": "Damage taken from Boss units is reduced by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boss Challenges</span>.",
+      "buff_tier1": "Damage taken from boss units is reduced by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
+      "buff_tier2": "Damage taken from boss units is reduced by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Boss Fight</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -641,8 +641,8 @@
       "sprite": "Lobby_Buff_Cook_53.png",
       "sprite_index": 53,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Burn Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Burn Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Burn Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Burn Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -755,8 +755,8 @@
       "sprite": "Lobby_Buff_Cook_26.png",
       "sprite_index": 26,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">DEF</span>. When given to a Doll, increases the Satiety of the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">DEF</span>. When given to a Doll, increases the Satiety of the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Defense</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Defense</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -803,7 +803,7 @@
         [
           "Synthetic White Meat",
           "Synthetic White Meat",
-          "Onion"
+          "Onions"
         ]
       ],
       "recipe_ids": [
@@ -820,7 +820,7 @@
       "ingredients": [
         "Grains",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Rice",
         "Synthetic Fish Meat",
         "Synthetic Red Meat",
@@ -832,14 +832,14 @@
     },
     {
       "id": 20,
-      "name": "Pan-Fried Foie Gras Nigiri",
+      "name": "Foie Gras Nigiri",
       "sprite": "Lobby_Buff_Cook_45.png",
       "sprite_index": 45,
       "food_type": "Take Out (Game Mode Buff)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">180</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">300</span>)s",
-      "alt_tier1": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases movement speed after consumption.",
-      "alt_tier2": "Effective in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. Increases movement speed after consumption.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, increases movement speed.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, increases movement speed.",
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
@@ -876,8 +876,8 @@
       "sprite": "Lobby_Buff_Cook_46.png",
       "sprite_index": 46,
       "food_type": "Buff Doll (Other)",
-      "buff_tier1": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span>.",
-      "buff_tier2": "When gifted to a Doll, increases Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span>.",
+      "buff_tier1": "When given to a Doll, it increases their Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span> points.",
+      "buff_tier2": "When given to a Doll, it increases their Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -933,12 +933,12 @@
     },
     {
       "id": 22,
-      "name": "Low-Calorie Sweet Purple Potato Rings",
+      "name": "Purple Sweet Potato Rolls",
       "sprite": "Lobby_Buff_Cook_47.png",
       "sprite_index": 47,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Physical Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Physical Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Physical Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Physical Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -990,7 +990,7 @@
         [
           "Synthetic White Meat",
           "Purple Sweet Potato",
-          "Onion"
+          "Onions"
         ]
       ],
       "recipe_ids": [
@@ -1009,7 +1009,7 @@
         "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Purple Sweet Potato",
         "Rice",
         "Synthetic Fish Meat",
@@ -1022,14 +1022,14 @@
     },
     {
       "id": 23,
-      "name": "Chicken Srew With Freens",
+      "name": "Chicken Stew with Greens",
       "sprite": "Lobby_Buff_Cook_54.png",
       "sprite_index": 54,
       "food_type": "Take Out (Game Mode Buff)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">1800</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3600</span>)s",
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consumption, increases the probability of unearthing ingredients.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consumption, increases the probability of unearthing ingredients.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, increases the chance of discovering ingredients.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Phase Clash</span>. After consuming, increases the chance of discovering ingredients.",
       "alt_group": "alt_phase_clash",
       "recipes": [
         [
@@ -1073,8 +1073,8 @@
       "sprite": "Lobby_Buff_Cook_55.png",
       "sprite_index": 55,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Hydro Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Hydro Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Hydro Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Hydro Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1144,12 +1144,12 @@
     },
     {
       "id": 25,
-      "name": "Spicy Stir-Fried Chicken Cubes",
+      "name": "Spicy Diced Chicken",
       "sprite": "Lobby_Buff_Cook_56.png",
       "sprite_index": 56,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Freeze Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Freeze Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Freeze Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Freeze Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1200,7 +1200,7 @@
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Synthetic White Meat"
         ]
       ],
@@ -1220,7 +1220,7 @@
         "Grains",
         "Greenhouse Bell Pepper",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Rice",
         "Synthetic Fish Meat",
         "Synthetic Red Meat",
@@ -1232,7 +1232,7 @@
     },
     {
       "id": 26,
-      "name": "Tomato Chicken Nuggets",
+      "name": "Chicken in Tomato Sauce",
       "sprite": "Lobby_Buff_Cook_68.png",
       "sprite_index": 68,
       "food_type": "Dine In (General)",
@@ -1300,12 +1300,12 @@
     },
     {
       "id": 27,
-      "name": "Fluffy Glutinous Rice Balls",
+      "name": "Sticky Rice Balls",
       "sprite": "Lobby_Buff_Cook_27.png",
       "sprite_index": 27,
       "food_type": "Dine In (General)",
-      "buff_tier1": "At the start of the Round, restores HP equal to <span class=\"hl\" style=\"color:#f26c1c\">2%</span> of Max HP. This Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
-      "buff_tier2": "At the start of the Round, restores HP equal to <span class=\"hl\" style=\"color:#f26c1c\">3%</span> of Max HP. This Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier1": "At the start of the round, recover HP equal to <span class=\"hl\" style=\"color:#f26c1c\">2%</span> of Max HP. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
+      "buff_tier2": "At the start of the round, recover HP equal to <span class=\"hl\" style=\"color:#f26c1c\">3%</span> of Max HP. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1343,8 +1343,8 @@
       "sprite": "Lobby_Buff_Cook_28.png",
       "sprite_index": 28,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Phase Synergy increases by <span class=\"hl\" style=\"color:#f26c1c\">2 points</span>. Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
-      "buff_tier2": "Phase Synergy increases by <span class=\"hl\" style=\"color:#f26c1c\">3 points</span>. Buff cannot be dispelled. Only effective in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier1": "Phase Enhancement is increased by <span class=\"hl\" style=\"color:#f26c1c\">2 points</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
+      "buff_tier2": "Phase Enhancement is increased by <span class=\"hl\" style=\"color:#f26c1c\">3 points</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1396,8 +1396,8 @@
       "sprite": "Lobby_Buff_Cook_29.png",
       "sprite_index": 29,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Max HP increases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, and healing received increases by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Buff cannot be dispelled.",
-      "buff_tier2": "Max HP increases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>, and healing received increases by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Buff cannot be dispelled.",
+      "buff_tier1": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span> and healing received is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span> and healing received is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1436,8 +1436,8 @@
       "sprite": "Lobby_Buff_Cook_57.png",
       "sprite_index": 57,
       "food_type": "Dine In (General)",
-      "buff_tier1": "When dealing Phase damage, Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
-      "buff_tier2": "When dealing Phase damage, Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier1": "When dealing phase damage, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "When dealing phase damage, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1478,12 +1478,12 @@
     },
     {
       "id": 31,
-      "name": "Cucumber Vegeterian Buns",
+      "name": "Steamed Cucumber Buns",
       "sprite": "Lobby_Buff_Cook_58.png",
       "sprite_index": 58,
       "food_type": "Dine In (General)",
-      "buff_tier1": "When dealing Physical damage, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
-      "buff_tier2": "When dealing Physical damage, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier1": "When dealing Physical damage, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "When dealing Physical damage, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1536,8 +1536,8 @@
       "sprite": "Lobby_Buff_Cook_59.png",
       "sprite_index": 59,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Physical damage dealt decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
-      "buff_tier2": "Phase damage dealt increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>, but Physical damage dealt decreases by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier1": "Phase damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span> but Physical damage dealt is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "Phase damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span> but Physical damage dealt is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1572,12 +1572,12 @@
     },
     {
       "id": 33,
-      "name": "Tomato Rice",
+      "name": "Saucy Tomato Rice",
       "sprite": "Lobby_Buff_Cook_69.png",
       "sprite_index": 69,
       "food_type": "Dine In (General)",
       "buff_tier1": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">15 points</span>. Considered a buff, cannot be cleansed.",
-      "buff_tier2": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">20 points</span>. This buff cannot be dispelled.",
+      "buff_tier2": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">20 points</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1616,8 +1616,8 @@
       "sprite": "Lobby_Buff_Cook_31.png",
       "sprite_index": 31,
       "food_type": "Dine In (General)",
-      "buff_tier1": "At the start of the round, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">0.7%</span>, stacking up to <span class=\"hl\" style=\"color:#f26c1c\">5 times</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
-      "buff_tier2": "At the start of the round, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>, stacking up to <span class=\"hl\" style=\"color:#f26c1c\">5 times</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier1": "At the start of the round, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.7%</span>. This effect stacks up to <span class=\"hl\" style=\"color:#f26c1c\">5 times</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
+      "buff_tier2": "At the start of the round, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This effect stacks up to <span class=\"hl\" style=\"color:#f26c1c\">5 times</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1673,14 +1673,14 @@
     },
     {
       "id": 35,
-      "name": "Pickled Mustard Greens and Vermicelli Buns",
+      "name": "Veggies and Vermicelli Buns",
       "sprite": "Lobby_Buff_Cook_60.png",
       "sprite_index": 60,
       "food_type": "Dine In (Random Effect)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3</span>)s",
-      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
-      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
+      "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
       "recipes": [
         [
@@ -1737,8 +1737,8 @@
       "sprite": "Lobby_Buff_Cook_61.png",
       "sprite_index": 61,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>, but Phase damage dealt is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
-      "buff_tier2": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>, but Phase damage dealt is decreased by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Buff cannot be dispelled. Effective only in <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier1": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span> but phase damage dealt is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
+      "buff_tier2": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span> but phase damage dealt is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Boundary Push</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1791,8 +1791,8 @@
       "sprite": "Lobby_Buff_Cook_62.png",
       "sprite_index": 62,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Electric Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Electric Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Electric Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Electric Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1855,12 +1855,12 @@
     },
     {
       "id": 38,
-      "name": "Tomato Flatbread",
+      "name": "Tomato Soup with Bread",
       "sprite": "Lobby_Buff_Cook_70.png",
       "sprite_index": 70,
       "food_type": "Dine In (General)",
       "buff_tier1": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">15 points</span>. Considered a buff, cannot be cleansed.",
-      "buff_tier2": "Increases Max HP by <span class=\"hl\" style=\"color:#f26c1c\">20</span>. This Buff cannot be dispelled.",
+      "buff_tier2": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">20 points</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1916,12 +1916,12 @@
     },
     {
       "id": 39,
-      "name": "Original Taste Sweet Purple Potato Balls",
+      "name": "Purple Sweet Potato Buns",
       "sprite": "Lobby_Buff_Cook_32.png",
       "sprite_index": 32,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1978,7 +1978,7 @@
         [
           "Purple Sweet Potato",
           "Purple Sweet Potato",
-          "Onion"
+          "Onions"
         ]
       ],
       "recipe_ids": [
@@ -1998,7 +1998,7 @@
         "Grains",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Purple Sweet Potato",
         "Rice",
         "Synthetic Fish Meat",
@@ -2011,14 +2011,14 @@
     },
     {
       "id": 40,
-      "name": "Vegetables and Sweet Potato Buns",
+      "name": "Veggies and Purple Yam Buns",
       "sprite": "Lobby_Buff_Cook_63.png",
       "sprite_index": 63,
       "food_type": "Dine In (General)",
       "buff_tier1": null,
       "buff_tier2": null,
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 1. Higher rarity will provide 1 additional chance.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. In the starting phase, increases Doll selection chances by 1. Higher rarity will provide 1 additional chance.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the number of chances to select Dolls at the start of battle by 1. Higher-quality versions grant 1 additional selection chance.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the number of chances to select Dolls at the start of battle by 1. Higher-quality versions grant 1 additional selection chance.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
@@ -2058,7 +2058,7 @@
     },
     {
       "id": 41,
-      "name": "Cucumber and Sweet Potato Buns",
+      "name": "Cucumber and Purple Yam Buns",
       "sprite": "Lobby_Buff_Cook_64.png",
       "sprite_index": 64,
       "food_type": "Dine In (General)",
@@ -2130,8 +2130,8 @@
       "sprite": "Lobby_Buff_Cook_65.png",
       "sprite_index": 65,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Buffs</span>. After gifting to a Doll, increases their respective attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2187,7 +2187,7 @@
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Purple Sweet Potato"
         ]
       ],
@@ -2209,7 +2209,7 @@
         "Greenhouse Bell Pepper",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Purple Sweet Potato",
         "Rice",
         "Synthetic Fish Meat",
@@ -2228,8 +2228,8 @@
       "food_type": "Dine In (General)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +50%. Higher rarity will provide an additional 50% scoring efficiency.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>, increasing scoring efficiency by +50%. Higher rarity will provide an additional 50% scoring efficiency.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the score multiplier by 50%. Higher-quality versions grant an additional 50% score multiplier.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the score multiplier by 50%. Higher-quality versions grant an additional 50% score multiplier.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
@@ -2301,8 +2301,8 @@
       "sprite": "Lobby_Buff_Cook_33.png",
       "sprite_index": 33,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage dealt by out-of-turn attacks increases by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
-      "buff_tier2": "Damage dealt by out-of-turn attacks increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier1": "Damage dealt by out-of-turn attacks is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "Damage dealt by out-of-turn attacks is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2336,12 +2336,12 @@
     },
     {
       "id": 45,
-      "name": "Cold Dishes With Sauce",
+      "name": "Cold Salad",
       "sprite": "Lobby_Buff_Cook_34.png",
       "sprite_index": 34,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage dealt by active attacks is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. This buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
-      "buff_tier2": "Damage dealt by active attacks increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only effective in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drills</span>.",
+      "buff_tier1": "Damage dealt by active attacks is increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "Damage dealt by active attacks is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2390,12 +2390,12 @@
     },
     {
       "id": 46,
-      "name": "Stir-Fried Seasonal Vegetables",
+      "name": "Stir-Fried Vegetables",
       "sprite": "Lobby_Buff_Cook_35.png",
       "sprite_index": 35,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. This buff cannot be dispelled.",
-      "buff_tier2": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>, damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. This buff cannot be dispelled.",
+      "buff_tier1": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span> and damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span> and damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.2%</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2450,8 +2450,8 @@
       "food_type": "Dine In (Random Effect)",
       "buff_tier1": null,
       "buff_tier2": null,
-      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
-      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
+      "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
       "recipes": [
         [
@@ -2495,8 +2495,8 @@
       "sprite": "Lobby_Buff_Cook_36.png",
       "sprite_index": 36,
       "food_type": "Dine In (General)",
-      "buff_tier1": "When dealing damage to an enemy target, if self has a Buff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
-      "buff_tier2": "When dealing damage to an enemy target, if self has a Buff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier1": "When dealing damage to enemy targets, if this unit has buffs, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "When dealing damage to enemy targets, if this unit has buffs, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2576,8 +2576,8 @@
       "sprite": "Lobby_Buff_Cook_37.png",
       "sprite_index": 37,
       "food_type": "Dine In (General)",
-      "buff_tier1": "When dealing damage to an enemy target, if the target has a Debuff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
-      "buff_tier2": "When dealing damage to an enemy target, if the target has a Debuff, Attack increases by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled. Only takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier1": "When dealing damage to enemy targets with debuffs, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
+      "buff_tier2": "When dealing damage to enemy targets with debuffs, attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Expansion Drill</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2654,12 +2654,12 @@
     },
     {
       "id": 50,
-      "name": "Mixed Fruit Stew",
+      "name": "Vegetable Ragout",
       "sprite": "Lobby_Buff_Cook_73.png",
       "sprite_index": 73,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.6%</span>, damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.6%</span>. This buff cannot be dispelled.",
-      "buff_tier2": "Damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>, damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. This buff cannot be dispelled.",
+      "buff_tier1": "Damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.6%</span> and damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.6%</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span> and damage taken is reduced by <span class=\"hl\" style=\"color:#f26c1c\">0.8%</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2720,8 +2720,8 @@
       "sprite": "Lobby_Buff_Cook_38.png",
       "sprite_index": 38,
       "food_type": "Buff Doll (Perm Stat Boost)",
-      "buff_tier1": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
-      "buff_tier2": "Long-term consumption can increase <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When gifted to a Doll, increases the corresponding attribute's Satiety by <span class=\"hl\" style=\"color:#f26c1c\">4</span>.",
+      "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2767,7 +2767,7 @@
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Greenhouse Bell Pepper"
         ]
       ],
@@ -2787,7 +2787,7 @@
         "Greenhouse Bell Pepper",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Purple Sweet Potato",
         "Rice",
         "Synthetic Fish Meat"
@@ -2797,12 +2797,12 @@
     },
     {
       "id": 52,
-      "name": "Sweet And Sour Traffic Light Peppers",
+      "name": "Sweet and Sour Peppers",
       "sprite": "Lobby_Buff_Cook_74.png",
       "sprite_index": 74,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Damage dealt by physical summons increases by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled.",
-      "buff_tier2": "Damage dealt by physical summons increases by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled.",
+      "buff_tier1": "Damage dealt by physical summons is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Considered a buff, cannot be cleansed.",
+      "buff_tier2": "Damage dealt by physical summons is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2863,8 +2863,8 @@
       "food_type": "Dine In (Random Effect)",
       "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">4</span>)s",
       "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">4</span>)s",
-      "alt_tier1": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
-      "alt_tier2": "Life is like a platter of assorted dishes, you never know what you'll get in the next bite.",
+      "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
+      "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
       "recipes": [
         [
@@ -2931,12 +2931,12 @@
     },
     {
       "id": 54,
-      "name": "Handwarmer Buns",
+      "name": "Steamed Corn Buns",
       "sprite": "Lobby_Buff_Cook_30.png",
       "sprite_index": 30,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Phase synergy increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
-      "buff_tier2": "Phase synergy increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled. Only takes effect in the <span class=\"hl\" style=\"color:#f26c1c\">Endless Corridor</span>.",
+      "buff_tier1": "Phase Enhancement is increased by <span class=\"hl\" style=\"color:#f26c1c\">2%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
+      "buff_tier2": "Phase Enhancement is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Considered a buff, cannot be cleansed. Only effective during <span class=\"hl\" style=\"color:#f26c1c\">Liminal Iteration</span>.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2997,7 +2997,7 @@
     },
     {
       "id": 56,
-      "name": "Sweet and Sour Stew",
+      "name": "Sweet and Sour Vegetables",
       "sprite": "Lobby_Buff_Cook_76.png",
       "sprite_index": 76,
       "food_type": "Buff Doll (Perm Stat Boost)",
@@ -3009,41 +3009,41 @@
       "recipes": [
         [
           "Greenhouse Bell Pepper",
-          "Onion"
+          "Onions"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Synthetic Fish Meat"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Synthetic Red Meat"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Rice"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Grains"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Greenhouse Vegetables"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Greenhouse Cucumber"
         ],
         [
           "Greenhouse Bell Pepper",
-          "Onion",
+          "Onions",
           "Tomato"
         ]
       ],
@@ -3062,7 +3062,7 @@
         "Greenhouse Bell Pepper",
         "Greenhouse Cucumber",
         "Greenhouse Vegetables",
-        "Onion",
+        "Onions",
         "Rice",
         "Synthetic Fish Meat",
         "Synthetic Red Meat",
@@ -3084,7 +3084,7 @@
     "Greenhouse Bell Pepper",
     "Greenhouse Cucumber",
     "Greenhouse Vegetables",
-    "Onion",
+    "Onions",
     "Purple Sweet Potato",
     "Rice",
     "Synthetic Fish Meat",
@@ -3094,19 +3094,19 @@
   ],
   "ingredient_icons": {
     "Cheese": "Cheese.png",
-    "Chill Pepper": "Chill_Pepper.png",
-    "Cilantro": "Cilantro.png",
+    "Chillies": "Chillies.png",
+    "Coriander": "Coriander.png",
     "Curry": "Curry.png",
     "Dried Shrimp": "Dried_Shrimp.png",
-    "Egg": "Egg.png",
+    "Eggs": "Eggs.png",
     "Garlic": "Garlic.png",
     "Grains": "Grains.png",
     "Greenhouse Bell Pepper": "Greenhouse_Bell_Pepper.png",
     "Greenhouse Cucumber": "Greenhouse_Cucumber.png",
     "Greenhouse Vegetables": "Greenhouse_Vegetables.png",
-    "Lemon": "Lemon.png",
-    "Mushroom": "Mushroom.png",
-    "Onion": "Onion.png",
+    "Lemons": "Lemons.png",
+    "Mushrooms": "Mushrooms.png",
+    "Onions": "Onions.png",
     "Purple Sweet Potato": "Purple_Sweet_Potato.png",
     "Rice": "Rice.png",
     "Synthetic Fish": "Synthetic_Fish.png",
@@ -3139,44 +3139,44 @@
   ],
   "dish_unlock_bonuses": [
     {
-      "ingredient": "Chill Pepper",
-      "text": "Burn damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be dispelled."
+      "ingredient": "Chillies",
+      "text": "Burn damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be cleansed."
     },
     {
       "ingredient": "Dried Shrimp",
-      "text": "Hydro damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be dispelled."
+      "text": "Hydro damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be cleansed."
     },
     {
-      "ingredient": "Lemon",
-      "text": "Electric damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+      "ingredient": "Lemons",
+      "text": "Electric damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
     },
     {
-      "ingredient": "Mushroom",
-      "text": "Corrosion damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+      "ingredient": "Mushrooms",
+      "text": "Corrosion damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
     },
     {
-      "ingredient": "Egg",
-      "text": "Freeze damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+      "ingredient": "Eggs",
+      "text": "Freeze damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
     },
     {
       "ingredient": "Garlic",
-      "text": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be dispelled."
+      "text": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
     },
     {
       "ingredient": "Cheese",
-      "text": "DEF +<span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled."
+      "text": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be cleansed."
     },
     {
       "ingredient": "Curry",
-      "text": "Max HP +<span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled."
+      "text": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be cleansed."
     },
     {
-      "ingredient": "Cilantro",
-      "text": "CRIT Rate and CRIT DMG +<span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be dispelled."
+      "ingredient": "Coriander",
+      "text": "CRIT Rate and CRIT DMG are increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be cleansed."
     },
     {
       "ingredient": "Tofu",
-      "text": "Attack increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be dispelled."
+      "text": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be cleansed."
     }
   ],
   "stats": {

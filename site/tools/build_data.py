@@ -38,18 +38,18 @@ PAIR_RECIPE_SIZE = 2
 # correct in-game name.
 INGREDIENT_FILES = {
     "Cheese": "Cheese.png",
-    "Chill Pepper": "Chill Pepper.png",
-    "Cilantro": "Cilantro.png",
+    "Chillies": "Chillies.png",
+    "Coriander": "Coriander.png",
     "Curry": "Curry.png",
     "Dried Shrimp": "Dried Shrimp.png",
-    "Egg": "Egg.png",
+    "Eggs": "Eggs.png",
     "Garlic": "Garlic.png",
     "Greenhouse Bell Pepper": "Greenhoues Bell Pepper.png",
     "Greenhouse Cucumber": "Greenhouse Cucumber.png",
     "Greenhouse Vegetables": "Greenhouse Vegetables.png",
-    "Lemon": "Lemon.png",
-    "Mushroom": "Mushroom.png",
-    "Onion": "Onion.png",
+    "Lemons": "Lemons.png",
+    "Mushrooms": "Mushrooms.png",
+    "Onions": "Onions.png",
     "Purple Sweet Potato": "Purple Sweet Potato.png",
     "Synthetic Fish": "Synthetic Fish.png",
     "Synthetic Meat": "Synthetic Meat.png",
@@ -90,16 +90,16 @@ PAREN_NUMBER_RE = re.compile(r"\((\d+(?:\.\d+)?)\)")
 # (cooked for the first time) via a 2-ingredient recipe — each of these
 # 10 "extra" ingredients grants its own permanent buff.
 DISH_UNLOCK_BONUSES = [
-    ("Chill Pepper",  "Burn damage dealt is increased by <color=#f26c1c>3%</color>. This buff cannot be dispelled."),
-    ("Dried Shrimp",  "Hydro damage dealt is increased by <color=#f26c1c>3%</color>. This buff cannot be dispelled."),
-    ("Lemon",         "Electric damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be dispelled."),
-    ("Mushroom",      "Corrosion damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be dispelled."),
-    ("Egg",           "Freeze damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be dispelled."),
-    ("Garlic",        "Physical damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be dispelled."),
-    ("Cheese",        "DEF +<color=#f26c1c>1.5%</color>. Buff cannot be dispelled."),
-    ("Curry",         "Max HP +<color=#f26c1c>1.5%</color>. Buff cannot be dispelled."),
-    ("Cilantro",      "CRIT Rate and CRIT DMG +<color=#f26c1c>1%</color>. Buff cannot be dispelled."),
-    ("Tofu",          "Attack increased by <color=#f26c1c>1.5%</color>. Buff cannot be dispelled."),
+    ("Chillies",  "Burn damage dealt is increased by <color=#f26c1c>3%</color>. This buff cannot be cleansed."),
+    ("Dried Shrimp",  "Hydro damage dealt is increased by <color=#f26c1c>3%</color>. This buff cannot be cleansed."),
+    ("Lemons",         "Electric damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be cleansed."),
+    ("Mushrooms",      "Corrosion damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be cleansed."),
+    ("Eggs",           "Freeze damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be cleansed."),
+    ("Garlic",        "Physical damage dealt is increased by <color=#f26c1c>3%</color>. Buff cannot be cleansed."),
+    ("Cheese",        "Defense is increased by <color=#f26c1c>1.5%</color>. Buff cannot be cleansed."),
+    ("Curry",         "Max HP is increased by <color=#f26c1c>1.5%</color>. Buff cannot be cleansed."),
+    ("Coriander",      "CRIT Rate and CRIT DMG are increased by <color=#f26c1c>1%</color>. Buff cannot be cleansed."),
+    ("Tofu",          "Attack is increased by <color=#f26c1c>1.5%</color>. Buff cannot be cleansed."),
 ]
 
 
@@ -232,8 +232,8 @@ def compute_best_recipes(dishes_list):
 
 
 ALT_GROUPS_DEF = [
-    ("alt_random",      "Random Buff",         lambda s: "Life is like a platter" in s),
-    ("alt_doll_perm",   "Permanent Doll Buff", lambda s: "Long-term consumption" in s or "increases Affinity" in s),
+    ("alt_random",      "Random Buff",         lambda s: "Life is like a jumbled combo platter" in s),
+    ("alt_doll_perm",   "Permanent Doll Buff", lambda s: "Consumption over extended periods" in s or "increases their Affinity" in s or "Long-term consumption" in s),
     ("alt_phase_clash", "Only in Phase Clash", lambda s: "Phase Clash" in s),
     ("alt_ashen_tales", "Only in Ashen Tales", lambda s: "Ashen Tales" in s),
 ]
