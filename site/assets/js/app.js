@@ -345,18 +345,27 @@
     empty.classList.toggle("hidden", count > 0);
   }
 
-  // ─── Modal ───────────────────────────────────────────────────
-  function openModal(dish) {
-    const body = $("#modal-body");
+  function orderedRecipeEntries(dish) {
     const bestIdx = (typeof dish.best_recipe_index === "number") ? dish.best_recipe_index : -1;
-    const bestScore = dish.best_recipe_score;
-    // Render recipes with the best one first.
     const orderedRecipes = dish.recipes.map((ings, i) => ({ ings, i }));
     if (bestIdx >= 0 && bestIdx < orderedRecipes.length) {
       const [best] = orderedRecipes.splice(bestIdx, 1);
       orderedRecipes.unshift(best);
     }
-    const recipesHtml = orderedRecipes.map(({ ings, i }) => {
+    return orderedRecipes;
+  }
+
+  function visibleRecipeEntries(dish, showAll) {
+    const entries = orderedRecipeEntries(dish);
+    if (showAll) return entries;
+    const pairEntries = entries.filter(({ ings }) => ings.length === 2);
+    return pairEntries.length ? pairEntries : entries;
+  }
+
+  function renderRecipeRows(dish, entries) {
+    const bestIdx = (typeof dish.best_recipe_index === "number") ? dish.best_recipe_index : -1;
+    const bestScore = dish.best_recipe_score;
+    return entries.map(({ ings, i }) => {
       const isBest = i === bestIdx;
       const badgeKey = (bestScore === 0) ? "recipe_badge_guaranteed" : "recipe_badge_recommended";
       const badgeCls = (bestScore === 0) ? "recipe-badge guaranteed" : "recipe-badge recommended";
@@ -375,6 +384,21 @@
       </li>
     `;
     }).join("");
+  }
+
+  function updateRecipeList(dish, showAll) {
+    const entries = visibleRecipeEntries(dish, showAll);
+    const title = $("#modal-recipes-title");
+    const list = $("#modal-recipe-list");
+    if (title) title.textContent = `${tr("recipes")} (${entries.length}/${dish.recipe_ids.length})`;
+    if (list) list.innerHTML = renderRecipeRows(dish, entries);
+  }
+
+  // ─── Modal ───────────────────────────────────────────────────
+  function openModal(dish) {
+    const body = $("#modal-body");
+    const defaultRecipeEntries = visibleRecipeEntries(dish, false);
+    const hasHiddenRecipes = defaultRecipeEntries.length < dish.recipes.length;
 
     const extraBuffsHtml = (dish.food_type === "Dine In (General)"
                             && STATE.data.dish_unlock_bonuses)
@@ -423,12 +447,25 @@
       ${altSection}
 
       <div class="modal-section">
-        <h4>${escapeHtml(tr("recipes"))} (${dish.recipe_ids.length})</h4>
-        <ul class="recipe-list">${recipesHtml}</ul>
+        <div class="recipe-section-head">
+          <h4 id="modal-recipes-title">${escapeHtml(tr("recipes"))} (${defaultRecipeEntries.length}/${dish.recipe_ids.length})</h4>
+          ${hasHiddenRecipes ? `
+            <label class="recipe-switch">
+              <input id="modal-show-all-recipes" type="checkbox" />
+              <span class="recipe-switch-track" aria-hidden="true"></span>
+              <span>${escapeHtml(tr("show_all_recipes"))}</span>
+            </label>
+          ` : ""}
+        </div>
+        <ul id="modal-recipe-list" class="recipe-list">${renderRecipeRows(dish, defaultRecipeEntries)}</ul>
       </div>
 
       ${extraBuffsHtml}
     `;
+    const recipeToggle = $("#modal-show-all-recipes");
+    if (recipeToggle) {
+      recipeToggle.addEventListener("change", (e) => updateRecipeList(dish, e.target.checked));
+    }
     $("#modal").classList.remove("hidden");
     document.body.style.overflow = "hidden";
   }

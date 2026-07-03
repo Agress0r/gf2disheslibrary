@@ -670,6 +670,69 @@ a:hover {
   color: var(--muted);
 }
 
+.recipe-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.recipe-section-head h4 {
+  margin-bottom: 0;
+}
+
+.recipe-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.recipe-switch input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.recipe-switch-track {
+  position: relative;
+  width: 38px;
+  height: 20px;
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-2);
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.recipe-switch-track::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--muted);
+  transition: transform var(--transition), background var(--transition);
+}
+
+.recipe-switch input:checked + .recipe-switch-track {
+  background: var(--accent-bg);
+  border-color: var(--accent);
+}
+
+.recipe-switch input:checked + .recipe-switch-track::after {
+  transform: translateX(18px);
+  background: var(--accent);
+}
+
 .guide-card {
   max-width: 920px;
 }
