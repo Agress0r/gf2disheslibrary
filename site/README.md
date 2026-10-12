@@ -1,7 +1,11 @@
 # GFL2 Dishes Library
 
 Static fan-site for the **Girls' Frontline 2: Exilium** lobby cooking mini-game.
-Browse all unique dishes, every recipe combination, both buff tiers, and alt-effects. UI is bilingual (EN / RU).
+Browse all unique dishes, every recipe combination, normal and lucky/improved cooking results, and alt-effects. UI is bilingual (EN / RU).
+
+Additional ingredient effects use a compact two-column grid (one column on phones).
+Select an ingredient to read its full game description below the grid. Percentages
+come from game text; the shared buff note appears once.
 
 ## Project Layout
 
@@ -15,31 +19,30 @@ site/
     ingredients/            # generated ingredient icons
     sprites/                # 56 dish icons (Lobby_Buff_Cook_21..76.png)
   data/dishes.json          # generated site data
-  tools/build_data.py       # local game data -> site JSON + asset copy
+  tools/build_data.py       # preserved legacy generator
 ```
 
 ## Regenerating Data
 
-The build script reads `GF2DEC/LobbyCookWildcardLookup.recreated.json`, generated
-by `GF2DEC/build_lobby_cook_wildcard_lookup.py`.
-
-Run from the repository root:
+The current full build uses local tools kept outside Git. Run from the repository root:
 
 ```sh
-python site/tools/build_data.py
+python update_build.py
+python update_build.py --local
+python update_build.py --check-only
 ```
 
-The script:
+The full build reads ten game tables, resolves effects separately for normal
+(quality 4) and lucky/improved (quality 5) results, and generates the site in a
+temporary directory before validation. Satiety, Affinity, Ashen Tales parameters
+and ingredient bonus texts come from the game tables. No manual placeholder
+values are needed. It joins sprites by game result ID and checks image files.
 
-1. Loads recipe rows from `GF2DEC/LobbyCookWildcardLookup.recreated.json`.
-2. Loads sprite mapping from `LobbyCookIllustrationsData.decoded.json`, falling back to `LobbyCookIllustrationsData.json`.
-3. Maps each unique dish to the matching illustration entry by the canonical 2-ingredient recipes.
-4. Splits `buff_description` and `alt_effect` on ` | ` into Lv1 / Lv2.
-5. Converts Unity `<color=#hex>...</color>` tags to HTML spans.
-6. Writes `site/data/dishes.json`.
-7. Copies dish sprites and ingredient icons into `site/assets/`.
-
-Current sanity checks expect 289 total recipes, 56 unique dishes, and 56 copied dish sprites.
+To regenerate from an already refreshed lookup, use
+`python local_build/build_data.py`. See `local_build/README.md` on the maintainer's
+machine for the detailed data mapping and checks. The old
+`site/tools/build_data.py` and `placeholder_values.json` are preserved legacy
+tools; use the commands above for current data.
 
 ## Local Preview
 
@@ -65,9 +68,12 @@ Local game-export files are intentionally ignored by `.gitignore`; the published
 | `id` | recipe id; multiple recipes can produce the same dish |
 | `ingredients` | ingredients separated by ` | ` |
 | `results` | dish name |
-| `alt_effect` | alternative buff text; ` | ` separates Lv1 / Lv2 |
-| `buff_description` | main buff text; ` | ` separates Lv1 / Lv2 |
+| `alt_effect` | alternative buff text; ` | ` separates normal / improved |
+| `buff_description` | main buff text; ` | ` separates normal / improved |
 | `food_type_label` | category |
 | `buff_type` | in-game buff key, when present |
 
-Buff and alt-effect texts are pulled verbatim from the game.
+Effect templates come from game localization and receive per-quality game values.
+In `dishes.json`, `buff_tier1` / `alt_tier1` are the normal result and
+`buff_tier2` / `alt_tier2` are the lucky/improved result. `result_id` is the game
+item ID. Raw templates remain in the local detailed lookup.

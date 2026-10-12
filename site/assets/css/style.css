@@ -1044,35 +1044,103 @@ a:hover {
 .extra-buffs-section .extra-buffs-hint {
   margin: 0 0 10px 0;
   color: var(--muted);
-  font-size: 14px;
-  font-style: italic;
+  font-size: 12px;
 }
 
-.extra-buffs-list {
+.extra-buffs-grid {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
 }
 
-.extra-buff-row {
+.extra-buff-option {
+  width: 100%;
+  min-height: 64px;
+  height: 100%;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 8px 12px;
+  gap: 10px;
+  padding: 9px 10px;
   background: var(--card-2);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition);
 }
 
-.extra-buff-row .ingredient-pill {
+.extra-buff-option:hover,
+.extra-buff-option[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.extra-buff-option:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}
+
+.extra-buff-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
-.extra-buff-text {
+.extra-buff-summary {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.extra-buff-name {
+  color: var(--text-strong);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.extra-buff-effect {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.extra-buff-value {
+  flex-shrink: 0;
+  color: var(--accent-2);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.extra-buffs-note,
+.extra-buffs-prompt {
+  margin: 8px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.extra-buff-detail {
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: var(--bg-2);
+  border-radius: var(--radius-sm);
+  overflow-wrap: anywhere;
+}
+
+.extra-buff-detail-name {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--text-strong);
+  font-size: 12px;
+}
+
+.extra-buff-text {
   font-size: 12px;
   color: var(--text);
 }
@@ -1135,6 +1203,10 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .extra-buffs-grid {
+    grid-template-columns: 1fr;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }

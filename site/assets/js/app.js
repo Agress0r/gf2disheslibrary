@@ -395,31 +395,56 @@
   }
 
   // ─── Modal ───────────────────────────────────────────────────
+  function renderExtraBuffs(bonuses) {
+    if (!bonuses.length) return "";
+    const commonNote = bonuses[0].note && bonuses.every((eb) => eb.note === bonuses[0].note)
+      ? bonuses[0].note : "";
+    return `
+      <div class="modal-section extra-buffs-section">
+        <h4>${escapeHtml(tr("dish_unlock_bonus_title"))}</h4>
+        <p class="extra-buffs-hint">${escapeHtml(tr("dish_unlock_bonus_hint"))}</p>
+        <ul class="extra-buffs-grid">
+          ${bonuses.map((eb, index) => {
+            const icon = ingredientIconUrl(eb.ingredient);
+            return `<li>
+              <button type="button" class="extra-buff-option" data-bonus-index="${index}"
+                      aria-pressed="${index === 0}" aria-controls="extra-buff-detail">
+                ${icon ? `<img class="extra-buff-icon" src="${escapeAttr(icon)}" alt="" loading="lazy" />` : ""}
+                <span class="extra-buff-summary">
+                  <span class="extra-buff-name">${escapeHtml(trIngredient(eb.ingredient))}</span>
+                  <span class="extra-buff-effect">${eb.effect ? escapeHtml(eb.effect) : eb.text}</span>
+                </span>
+                ${eb.value ? `<span class="extra-buff-value">+${escapeHtml(eb.value)}</span>` : ""}
+              </button>
+            </li>`;
+          }).join("")}
+        </ul>
+        ${commonNote ? `<p class="extra-buffs-note">${escapeHtml(commonNote)}</p>` : ""}
+        <p class="extra-buffs-prompt">${escapeHtml(tr("dish_unlock_bonus_details_hint"))}</p>
+        <div id="extra-buff-detail" class="extra-buff-detail" aria-live="polite" aria-atomic="true">
+          <strong class="extra-buff-detail-name">${escapeHtml(trIngredient(bonuses[0].ingredient))}</strong>
+          <div class="extra-buff-text">${bonuses[0].text}</div>
+        </div>
+      </div>`;
+  }
+
+  function selectExtraBuff(index, bonuses) {
+    const bonus = bonuses[index];
+    if (!bonus) return;
+    $$(".extra-buff-option").forEach((button) => {
+      button.setAttribute("aria-pressed", String(Number(button.dataset.bonusIndex) === index));
+    });
+    $(".extra-buff-detail-name").textContent = trIngredient(bonus.ingredient);
+    $("#extra-buff-detail .extra-buff-text").innerHTML = bonus.text;
+  }
+
   function openModal(dish) {
     const body = $("#modal-body");
     const defaultRecipeEntries = visibleRecipeEntries(dish, false);
     const hasHiddenRecipes = defaultRecipeEntries.length < dish.recipes.length;
 
-    const extraBuffsHtml = (dish.food_type === "Dine In (General)"
-                            && STATE.data.dish_unlock_bonuses)
-      ? `
-        <div class="modal-section extra-buffs-section">
-          <h4>${escapeHtml(tr("dish_unlock_bonus_title"))}</h4>
-          <p class="extra-buffs-hint">${escapeHtml(tr("dish_unlock_bonus_hint"))}</p>
-          <ul class="extra-buffs-list">
-            ${STATE.data.dish_unlock_bonuses.map((eb) => {
-              const icon = ingredientIconUrl(eb.ingredient);
-              const iconHtml = icon ? `<img class="pill-icon" src="${icon}" alt="" loading="lazy" />` : "";
-              return `
-              <li class="extra-buff-row">
-                <span class="ingredient-pill">${iconHtml}${escapeHtml(trIngredient(eb.ingredient))}</span>
-                <div class="extra-buff-text">${eb.text}</div>
-              </li>`;
-            }).join("")}
-          </ul>
-        </div>
-      `
-      : "";
+    const bonuses = STATE.data.dish_unlock_bonuses || [];
+    const extraBuffsHtml = dish.food_type === "Dine In (General)" ? renderExtraBuffs(bonuses) : "";
 
     const altSection = (dish.alt_tier1 || dish.alt_tier2) ? `
       <div class="modal-section">
@@ -466,6 +491,9 @@
     if (recipeToggle) {
       recipeToggle.addEventListener("change", (e) => updateRecipeList(dish, e.target.checked));
     }
+    $$(".extra-buff-option").forEach((button) => {
+      button.addEventListener("click", () => selectExtraBuff(Number(button.dataset.bonusIndex), bonuses));
+    });
     $("#modal").classList.remove("hidden");
     document.body.style.overflow = "hidden";
   }

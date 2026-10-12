@@ -4,6 +4,8 @@ decode_lobby_cook_illustrations.py
 other/
 gf2dec/
 Launch.bat
+/update_build.py
+/local_build/
 
 # Raw game data - kept locally for build_data.py, not published
 BattleBuffPerformData.json

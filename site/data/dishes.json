@@ -2,6 +2,7 @@
   "dishes": [
     {
       "id": 1,
+      "result_id": 1741001,
       "name": "Sweet and Sour Fish",
       "sprite": "Lobby_Buff_Cook_21.png",
       "sprite_index": 21,
@@ -41,6 +42,7 @@
     },
     {
       "id": 2,
+      "result_id": 1741002,
       "name": "Surf and Turf Skewers",
       "sprite": "Lobby_Buff_Cook_22.png",
       "sprite_index": 22,
@@ -74,6 +76,7 @@
     },
     {
       "id": 3,
+      "result_id": 1741003,
       "name": "Fish-Flavored Pork Slices",
       "sprite": "Lobby_Buff_Cook_23.png",
       "sprite_index": 23,
@@ -107,6 +110,7 @@
     },
     {
       "id": 4,
+      "result_id": 1741019,
       "name": "Unagi Roll",
       "sprite": "Lobby_Buff_Cook_39.png",
       "sprite_index": 39,
@@ -140,6 +144,7 @@
     },
     {
       "id": 5,
+      "result_id": 1741020,
       "name": "Roasted Cod Sausage",
       "sprite": "Lobby_Buff_Cook_40.png",
       "sprite_index": 40,
@@ -179,6 +184,7 @@
     },
     {
       "id": 6,
+      "result_id": 1741021,
       "name": "Assorted Sushi",
       "sprite": "Lobby_Buff_Cook_41.png",
       "sprite_index": 41,
@@ -212,6 +218,7 @@
     },
     {
       "id": 7,
+      "result_id": 1741028,
       "name": "Greens & Fish Tofu Stew",
       "sprite": "Lobby_Buff_Cook_48.png",
       "sprite_index": 48,
@@ -245,6 +252,7 @@
     },
     {
       "id": 8,
+      "result_id": 1741029,
       "name": "Braised Eel With Cucumber",
       "sprite": "Lobby_Buff_Cook_49.png",
       "sprite_index": 49,
@@ -278,6 +286,7 @@
     },
     {
       "id": 9,
+      "result_id": 1741030,
       "name": "Colorful Fish Fillets",
       "sprite": "Lobby_Buff_Cook_50.png",
       "sprite_index": 50,
@@ -311,6 +320,7 @@
     },
     {
       "id": 10,
+      "result_id": 1741004,
       "name": "Sweet and Sour Pork",
       "sprite": "Lobby_Buff_Cook_24.png",
       "sprite_index": 24,
@@ -350,6 +360,7 @@
     },
     {
       "id": 11,
+      "result_id": 1741005,
       "name": "Meat Skewers",
       "sprite": "Lobby_Buff_Cook_25.png",
       "sprite_index": 25,
@@ -404,12 +415,13 @@
     },
     {
       "id": 12,
+      "result_id": 1741022,
       "name": "Wagyu Sushi",
       "sprite": "Lobby_Buff_Cook_42.png",
       "sprite_index": 42,
       "food_type": "Dine In (Random Effect)",
-      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">50</span>)s",
-      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">150</span>)s",
+      "buff_tier1": "Size: (<span class=\"hl\" style=\"color:#f26c1c\">50</span>)%; Speed: (<span class=\"hl\" style=\"color:#f26c1c\">40</span>)%; Duration: (<span class=\"hl\" style=\"color:#f26c1c\">30</span>)s",
+      "buff_tier2": "Size: (<span class=\"hl\" style=\"color:#f26c1c\">150</span>)%; Speed: (<span class=\"hl\" style=\"color:#f26c1c\">120</span>)%; Duration: (<span class=\"hl\" style=\"color:#f26c1c\">30</span>)s",
       "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
@@ -450,6 +462,7 @@
     },
     {
       "id": 13,
+      "result_id": 1741023,
       "name": "Roasted Ham",
       "sprite": "Lobby_Buff_Cook_43.png",
       "sprite_index": 43,
@@ -490,6 +503,7 @@
     },
     {
       "id": 14,
+      "result_id": 1741024,
       "name": "Black Pepper Sausage",
       "sprite": "Lobby_Buff_Cook_44.png",
       "sprite_index": 44,
@@ -544,12 +558,13 @@
     },
     {
       "id": 15,
+      "result_id": 1741031,
       "name": "Broccoli and Beef Stir-Fry",
       "sprite": "Lobby_Buff_Cook_51.png",
       "sprite_index": 51,
       "food_type": "Dine In (Random Effect)",
-      "buff_tier1": null,
-      "buff_tier2": null,
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">30</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">120</span>)s",
       "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
@@ -597,6 +612,7 @@
     },
     {
       "id": 16,
+      "result_id": 1741032,
       "name": "Tossed Pork Salad",
       "sprite": "Lobby_Buff_Cook_52.png",
       "sprite_index": 52,
@@ -637,12 +653,13 @@
     },
     {
       "id": 17,
+      "result_id": 1741033,
       "name": "Green Pepper Kushiyaki",
       "sprite": "Lobby_Buff_Cook_53.png",
       "sprite_index": 53,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Burn Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Burn Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Burn Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -697,6 +714,7 @@
     },
     {
       "id": 18,
+      "result_id": 1741047,
       "name": "Tomato Beef Brisket",
       "sprite": "Lobby_Buff_Cook_67.png",
       "sprite_index": 67,
@@ -751,12 +769,13 @@
     },
     {
       "id": 19,
+      "result_id": 1741006,
       "name": "Sweet and Sour Chicken",
       "sprite": "Lobby_Buff_Cook_26.png",
       "sprite_index": 26,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Defense</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Defense</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Defense</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -832,6 +851,7 @@
     },
     {
       "id": 20,
+      "result_id": 1741025,
       "name": "Foie Gras Nigiri",
       "sprite": "Lobby_Buff_Cook_45.png",
       "sprite_index": 45,
@@ -872,12 +892,13 @@
     },
     {
       "id": 21,
+      "result_id": 1741026,
       "name": "Low-Fat Chicken Sausage",
       "sprite": "Lobby_Buff_Cook_46.png",
       "sprite_index": 46,
       "food_type": "Buff Doll (Other)",
       "buff_tier1": "When given to a Doll, it increases their Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span> points.",
-      "buff_tier2": "When given to a Doll, it increases their Affinity by <span class=\"hl\" style=\"color:#f26c1c\">50</span> points.",
+      "buff_tier2": "When given to a Doll, it increases their Affinity by <span class=\"hl\" style=\"color:#f26c1c\">100</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -933,12 +954,13 @@
     },
     {
       "id": 22,
+      "result_id": 1741027,
       "name": "Purple Sweet Potato Rolls",
       "sprite": "Lobby_Buff_Cook_47.png",
       "sprite_index": 47,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Physical Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Physical Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Physical Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1022,6 +1044,7 @@
     },
     {
       "id": 23,
+      "result_id": 1741034,
       "name": "Chicken Stew with Greens",
       "sprite": "Lobby_Buff_Cook_54.png",
       "sprite_index": 54,
@@ -1069,12 +1092,13 @@
     },
     {
       "id": 24,
+      "result_id": 1741035,
       "name": "Cold Shredded Pork",
       "sprite": "Lobby_Buff_Cook_55.png",
       "sprite_index": 55,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Hydro Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Hydro Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Hydro Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1144,12 +1168,13 @@
     },
     {
       "id": 25,
+      "result_id": 1741036,
       "name": "Spicy Diced Chicken",
       "sprite": "Lobby_Buff_Cook_56.png",
       "sprite_index": 56,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Freeze Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Freeze Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Freeze Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1232,6 +1257,7 @@
     },
     {
       "id": 26,
+      "result_id": 1741048,
       "name": "Chicken in Tomato Sauce",
       "sprite": "Lobby_Buff_Cook_68.png",
       "sprite_index": 68,
@@ -1300,6 +1326,7 @@
     },
     {
       "id": 27,
+      "result_id": 1741007,
       "name": "Sticky Rice Balls",
       "sprite": "Lobby_Buff_Cook_27.png",
       "sprite_index": 27,
@@ -1339,6 +1366,7 @@
     },
     {
       "id": 28,
+      "result_id": 1741008,
       "name": "Sweet Rice Bread",
       "sprite": "Lobby_Buff_Cook_28.png",
       "sprite_index": 28,
@@ -1392,6 +1420,7 @@
     },
     {
       "id": 29,
+      "result_id": 1741009,
       "name": "Spicy and Sour Vermicelli Buns",
       "sprite": "Lobby_Buff_Cook_29.png",
       "sprite_index": 29,
@@ -1432,6 +1461,7 @@
     },
     {
       "id": 30,
+      "result_id": 1741037,
       "name": "Steamed Vegetable Buns",
       "sprite": "Lobby_Buff_Cook_57.png",
       "sprite_index": 57,
@@ -1478,6 +1508,7 @@
     },
     {
       "id": 31,
+      "result_id": 1741038,
       "name": "Steamed Cucumber Buns",
       "sprite": "Lobby_Buff_Cook_58.png",
       "sprite_index": 58,
@@ -1532,6 +1563,7 @@
     },
     {
       "id": 32,
+      "result_id": 1741039,
       "name": "Pepper and Mushroom Buns",
       "sprite": "Lobby_Buff_Cook_59.png",
       "sprite_index": 59,
@@ -1572,6 +1604,7 @@
     },
     {
       "id": 33,
+      "result_id": 1741049,
       "name": "Saucy Tomato Rice",
       "sprite": "Lobby_Buff_Cook_69.png",
       "sprite_index": 69,
@@ -1612,6 +1645,7 @@
     },
     {
       "id": 34,
+      "result_id": 1741011,
       "name": "Purple Sweet Potato Balls",
       "sprite": "Lobby_Buff_Cook_31.png",
       "sprite_index": 31,
@@ -1673,12 +1707,13 @@
     },
     {
       "id": 35,
+      "result_id": 1741040,
       "name": "Veggies and Vermicelli Buns",
       "sprite": "Lobby_Buff_Cook_60.png",
       "sprite_index": 60,
       "food_type": "Dine In (Random Effect)",
-      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3</span>)s",
-      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">3</span>)s",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">30</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">120</span>)s",
       "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
@@ -1733,6 +1768,7 @@
     },
     {
       "id": 36,
+      "result_id": 1741041,
       "name": "Fried Cucumber Dumplings",
       "sprite": "Lobby_Buff_Cook_61.png",
       "sprite_index": 61,
@@ -1787,12 +1823,13 @@
     },
     {
       "id": 37,
+      "result_id": 1741042,
       "name": "Pepper Tofu Buns",
       "sprite": "Lobby_Buff_Cook_62.png",
       "sprite_index": 62,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Electric Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Electric Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Electric Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -1855,6 +1892,7 @@
     },
     {
       "id": 38,
+      "result_id": 1741050,
       "name": "Tomato Soup with Bread",
       "sprite": "Lobby_Buff_Cook_70.png",
       "sprite_index": 70,
@@ -1916,12 +1954,13 @@
     },
     {
       "id": 39,
+      "result_id": 1741012,
       "name": "Purple Sweet Potato Buns",
       "sprite": "Lobby_Buff_Cook_32.png",
       "sprite_index": 32,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">HP</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2011,14 +2050,15 @@
     },
     {
       "id": 40,
+      "result_id": 1741043,
       "name": "Veggies and Purple Yam Buns",
       "sprite": "Lobby_Buff_Cook_63.png",
       "sprite_index": 63,
       "food_type": "Dine In (General)",
       "buff_tier1": null,
       "buff_tier2": null,
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the number of chances to select Dolls at the start of battle by 1. Higher-quality versions grant 1 additional selection chance.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the number of chances to select Dolls at the start of battle by 1. Higher-quality versions grant 1 additional selection chance.",
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the number of chances to select Dolls at the start of battle by 1.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the number of chances to select Dolls at the start of battle by 2.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
@@ -2058,6 +2098,7 @@
     },
     {
       "id": 41,
+      "result_id": 1741044,
       "name": "Cucumber and Purple Yam Buns",
       "sprite": "Lobby_Buff_Cook_64.png",
       "sprite_index": 64,
@@ -2126,12 +2167,13 @@
     },
     {
       "id": 42,
+      "result_id": 1741045,
       "name": "Spicy Purple Sweet Potato Buns",
       "sprite": "Lobby_Buff_Cook_65.png",
       "sprite_index": 65,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Corrosion Boost</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2222,14 +2264,15 @@
     },
     {
       "id": 43,
+      "result_id": 1741051,
       "name": "Vegetable Stew",
       "sprite": "Lobby_Buff_Cook_71.png",
       "sprite_index": 71,
       "food_type": "Dine In (General)",
-      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
-      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">2</span>)s",
-      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the score multiplier by 50%. Higher-quality versions grant an additional 50% score multiplier.",
-      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the score multiplier by 50%. Higher-quality versions grant an additional 50% score multiplier.",
+      "buff_tier1": null,
+      "buff_tier2": null,
+      "alt_tier1": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the score multiplier by 50%.",
+      "alt_tier2": "Takes effect in <span class=\"hl\" style=\"color:#f26c1c\">Ashen Tales</span>. Increases the score multiplier by 100%.",
       "alt_group": "alt_ashen_tales",
       "recipes": [
         [
@@ -2297,6 +2340,7 @@
     },
     {
       "id": 44,
+      "result_id": 1741013,
       "name": "Vegetable Salad",
       "sprite": "Lobby_Buff_Cook_33.png",
       "sprite_index": 33,
@@ -2336,6 +2380,7 @@
     },
     {
       "id": 45,
+      "result_id": 1741014,
       "name": "Cold Salad",
       "sprite": "Lobby_Buff_Cook_34.png",
       "sprite_index": 34,
@@ -2390,6 +2435,7 @@
     },
     {
       "id": 46,
+      "result_id": 1741015,
       "name": "Stir-Fried Vegetables",
       "sprite": "Lobby_Buff_Cook_35.png",
       "sprite_index": 35,
@@ -2444,6 +2490,7 @@
     },
     {
       "id": 47,
+      "result_id": 1741052,
       "name": "Vegetable Tomato Soup",
       "sprite": "Lobby_Buff_Cook_72.png",
       "sprite_index": 72,
@@ -2491,6 +2538,7 @@
     },
     {
       "id": 48,
+      "result_id": 1741016,
       "name": "Cucumber Salad",
       "sprite": "Lobby_Buff_Cook_36.png",
       "sprite_index": 36,
@@ -2572,6 +2620,7 @@
     },
     {
       "id": 49,
+      "result_id": 1741017,
       "name": "Tiger Salad Appetizer",
       "sprite": "Lobby_Buff_Cook_37.png",
       "sprite_index": 37,
@@ -2654,6 +2703,7 @@
     },
     {
       "id": 50,
+      "result_id": 1741053,
       "name": "Vegetable Ragout",
       "sprite": "Lobby_Buff_Cook_73.png",
       "sprite_index": 73,
@@ -2716,12 +2766,13 @@
     },
     {
       "id": 51,
+      "result_id": 1741018,
       "name": "Stir-Fried Peppers",
       "sprite": "Lobby_Buff_Cook_38.png",
       "sprite_index": 38,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">Attack</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -2797,6 +2848,7 @@
     },
     {
       "id": 52,
+      "result_id": 1741054,
       "name": "Sweet and Sour Peppers",
       "sprite": "Lobby_Buff_Cook_74.png",
       "sprite_index": 74,
@@ -2857,12 +2909,13 @@
     },
     {
       "id": 53,
+      "result_id": 1741055,
       "name": "Tomato Salad",
       "sprite": "Lobby_Buff_Cook_75.png",
       "sprite_index": 75,
       "food_type": "Dine In (Random Effect)",
-      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">4</span>)s",
-      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">4</span>)s",
+      "buff_tier1": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">30</span>)s",
+      "buff_tier2": "Duration: (<span class=\"hl\" style=\"color:#f26c1c\">120</span>)s",
       "alt_tier1": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_tier2": "Life is like a jumbled combo platter, you never know what the next bite is going to be.",
       "alt_group": "alt_random",
@@ -2931,6 +2984,7 @@
     },
     {
       "id": 54,
+      "result_id": 1741010,
       "name": "Steamed Corn Buns",
       "sprite": "Lobby_Buff_Cook_30.png",
       "sprite_index": 30,
@@ -2970,6 +3024,7 @@
     },
     {
       "id": 55,
+      "result_id": 1741046,
       "name": "Tomato Fish Soup",
       "sprite": "Lobby_Buff_Cook_66.png",
       "sprite_index": 66,
@@ -2997,12 +3052,13 @@
     },
     {
       "id": 56,
+      "result_id": 1741056,
       "name": "Sweet and Sour Vegetables",
       "sprite": "Lobby_Buff_Cook_76.png",
       "sprite_index": 76,
       "food_type": "Buff Doll (Perm Stat Boost)",
       "buff_tier1": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">all attribute boosts</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
-      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">all attribute boosts</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">4</span> points.",
+      "buff_tier2": "Consumption over extended periods will improve <span class=\"hl\" style=\"color:#f26c1c\">all attribute boosts</span>. When given to a Doll, it increases their Satiety for the corresponding attribute by <span class=\"hl\" style=\"color:#f26c1c\">5</span> points.",
       "alt_tier1": null,
       "alt_tier2": null,
       "alt_group": null,
@@ -3140,43 +3196,73 @@
   "dish_unlock_bonuses": [
     {
       "ingredient": "Chillies",
-      "text": "Burn damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be cleansed."
+      "text": "Burn damage dealt is increased by 3%. Considered a buff, cannot be cleansed.",
+      "effect": "Burn damage",
+      "value": "3%",
+      "note": "Considered a buff, cannot be cleansed."
     },
     {
       "ingredient": "Dried Shrimp",
-      "text": "Hydro damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. This buff cannot be cleansed."
+      "text": "Hydro damage dealt is increased by 3%. Considered a buff, cannot be cleansed.",
+      "effect": "Hydro damage",
+      "value": "3%",
+      "note": "Considered a buff, cannot be cleansed."
     },
     {
       "ingredient": "Lemons",
-      "text": "Electric damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
+      "text": "Electric damage dealt is increased by 3%. Considered a buff, cannot be cleansed.",
+      "effect": "Electric damage",
+      "value": "3%",
+      "note": "Considered a buff, cannot be cleansed."
     },
     {
       "ingredient": "Mushrooms",
-      "text": "Corrosion damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
+      "text": "Corrosion damage dealt is increased by 3%. Considered a buff, cannot be cleansed.",
+      "effect": "Corrosion damage",
+      "value": "3%",
+      "note": "Considered a buff, cannot be cleansed."
     },
     {
       "ingredient": "Eggs",
-      "text": "Freeze damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
+      "text": "Freeze damage dealt is increased by 3%. Considered a buff, cannot be cleansed.",
+      "effect": "Freeze damage",
+      "value": "3%",
+      "note": "Considered a buff, cannot be cleansed."
     },
     {
       "ingredient": "Garlic",
-      "text": "Physical damage dealt is increased by <span class=\"hl\" style=\"color:#f26c1c\">3%</span>. Buff cannot be cleansed."
-    },
-    {
-      "ingredient": "Cheese",
-      "text": "Defense is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be cleansed."
-    },
-    {
-      "ingredient": "Curry",
-      "text": "Max HP is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be cleansed."
-    },
-    {
-      "ingredient": "Coriander",
-      "text": "CRIT Rate and CRIT DMG are increased by <span class=\"hl\" style=\"color:#f26c1c\">1%</span>. Buff cannot be cleansed."
+      "text": "Physical damage dealt is increased by 3%. Considered a buff, cannot be cleansed.",
+      "effect": "Physical damage",
+      "value": "3%",
+      "note": "Considered a buff, cannot be cleansed."
     },
     {
       "ingredient": "Tofu",
-      "text": "Attack is increased by <span class=\"hl\" style=\"color:#f26c1c\">1.5%</span>. Buff cannot be cleansed."
+      "text": "Attack is increased by 1.5%. Considered a buff, cannot be cleansed.",
+      "effect": "Attack",
+      "value": "1.5%",
+      "note": "Considered a buff, cannot be cleansed."
+    },
+    {
+      "ingredient": "Cheese",
+      "text": "Defense is increased by 1.5%. Considered a buff, cannot be cleansed.",
+      "effect": "Defense",
+      "value": "1.5%",
+      "note": "Considered a buff, cannot be cleansed."
+    },
+    {
+      "ingredient": "Curry",
+      "text": "Max HP is increased by 1.5%. Considered a buff, cannot be cleansed.",
+      "effect": "Max HP",
+      "value": "1.5%",
+      "note": "Considered a buff, cannot be cleansed."
+    },
+    {
+      "ingredient": "Coriander",
+      "text": "Critical rate and critical damage is increased by 1%. Considered a buff, cannot be cleansed.",
+      "effect": "CRIT Rate & DMG",
+      "value": "1%",
+      "note": "Considered a buff, cannot be cleansed."
     }
   ],
   "stats": {
